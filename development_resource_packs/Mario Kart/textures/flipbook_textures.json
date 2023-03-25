@@ -1,0 +1,7 @@
+[
+    {
+        "flipbook_texture": "textures/blocks/item_box",
+        "atlas_tile": "item_box",
+        "ticks_per_frame": 10
+    }
+]
