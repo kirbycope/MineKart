@@ -1,0 +1,7 @@
+{
+	"texture_data": {
+		"mario_kart_spawn_egg": {
+			"textures": ["textures/items/mario_kart_spawn_egg"]
+		}
+	}
+}

@@ -1,0 +1,11 @@
+{
+    "format_version": "1.14.0",
+    "sound_definitions": {
+        "mob.kirbycope.mario_kart.jump": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/mario_kart/jump"
+            ]
+        }
+    }
+}

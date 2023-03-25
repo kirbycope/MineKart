@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Mario Kart",
+		"description": "Mario Kart Behavior Pack",
+		"uuid": "27818ff2-ad0e-1c01-4ef5-9d3f267663c1",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Kirbycope"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.1.1"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "235c14a4-a593-4a9f-6bd8-24710c9fdfa1",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "179c6968-c192-8506-9ebb-10ec4599638a",
+			"version": [1, 0, 0]
+		}
+	]
+}

@@ -1,0 +1,5 @@
+entity.kirbycope:mario_kart.name=Mario Kart
+item.spawn_egg.entity.kirbycope:mario_kart.name=Spawn Mario Kart
+action.hint.exit.kirbycope:mario_kart=Tap crouch to exit the kart
+action.interact.exit.kirbycope:mario_kart=Leave kart
+action.interact.ride.kirbycope:mario_kart=Board

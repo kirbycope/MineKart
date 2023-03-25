@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Mario Kart",
+		"description": "Mario Kart Resource Pack",
+		"uuid": "179c6968-c192-8506-9ebb-10ec4599638a",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Kirbycope"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.1.1"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Mario Kart",
+			"type": "resources",
+			"uuid": "07c53d89-8b7f-9801-3453-a6806b6f669b",
+			"version": [1, 0, 0]
+		}
+	]
+}
