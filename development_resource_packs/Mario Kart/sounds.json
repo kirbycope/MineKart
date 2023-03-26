@@ -1,17 +1,17 @@
 {
 	"entity_sounds": {
 		"entities": {
-			"kirbycope:mario_kart" : {
-				"events" : {
-				   "jump" : {
-					  "pitch" : 1.0,
-					  "sound" : "mob.kirbycope.mario_kart.jump",
-					  "volume" : 0.40
-				   }
+			"kirbycope:mario_kart": {
+				"events": {
+					"jump": {
+						"pitch": 1,
+						"sound": "mob.kirbycope.mario_kart.jump",
+						"volume": 0.4
+					}
 				},
-				"pitch" : [ 0.80, 1.20 ],
-				"volume" : 0.80
-			 }
+				"pitch": [0.8, 1.2],
+				"volume": 0.8
+			}
 		}
 	}
 }

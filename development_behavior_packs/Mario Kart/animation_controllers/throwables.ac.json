@@ -1,0 +1,31 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+      "controller.animation.player.throwables": {
+        "states": {
+          "default": {
+            "transitions": [
+              {
+                "throw_item": "query.is_item_name_any('slot.weapon.mainhand', 0, 'wiki:throwable_item') && query.is_using_item"
+              }
+            ],
+            "on_entry": [
+              "@s wiki:reset_player"
+            ]
+          },
+          "throw_item": {
+            "transitions": [
+              {
+                "default": "1.0"
+              }
+            ],
+            "on_entry": [
+              "@s wiki:throw_item",
+              "/clear @s wiki:throwable_item -1 1"
+            ]
+          }
+        }
+      }
+    }
+  }
+  
