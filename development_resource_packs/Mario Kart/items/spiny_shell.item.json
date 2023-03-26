@@ -1,0 +1,14 @@
+{
+	"format_version": "1.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "kirbycope:spiny_shell",
+			"category": "Nature"
+		},
+		"components": {
+			"minecraft:icon": "spiny_shell",
+			"minecraft:render_offsets": "tools",
+			"minecraft:hover_text_color": "blue"
+		}
+	}
+}

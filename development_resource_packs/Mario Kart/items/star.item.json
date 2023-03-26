@@ -1,0 +1,14 @@
+{
+	"format_version": "1.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "kirbycope:star",
+			"category": "Nature"
+		},
+		"components": {
+			"minecraft:icon": "star",
+			"minecraft:render_offsets": "tools",
+			"minecraft:hover_text_color": "yellow"
+		}
+	}
+}

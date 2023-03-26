@@ -1,0 +1,14 @@
+{
+	"format_version": "1.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "kirbycope:boo",
+			"category": "Nature"
+		},
+		"components": {
+			"minecraft:icon": "boo",
+			"minecraft:render_offsets": "tools",
+			"minecraft:hover_text_color": "white"
+		}
+	}
+}

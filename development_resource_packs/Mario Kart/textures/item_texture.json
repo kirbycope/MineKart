@@ -1,10 +1,31 @@
 {
 	"texture_data": {
+		"banana": {
+			"textures": ["textures/items/banana"]
+		},
+		"boo": {
+			"textures": ["textures/items/boo"]
+		},
+		"green_shell": {
+			"textures": ["textures/items/green_shell"]
+		},
+		"lightning": {
+			"textures": ["textures/items/lightning"]
+		},
 		"mario_kart_spawn_egg": {
 			"textures": ["textures/items/mario_kart_spawn_egg"]
 		},
 		"mushroom": {
 			"textures": ["textures/items/mushroom"]
+		},
+		"red_shell": {
+			"textures": ["textures/items/red_shell"]
+		},
+		"spiny_shell": {
+			"textures": ["textures/items/spiny_shell"]
+		},
+		"star": {
+			"textures": ["textures/items/star"]
 		}
 	}
 }

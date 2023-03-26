@@ -1,0 +1,14 @@
+{
+	"format_version": "1.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "kirbycope:red_shell",
+			"category": "Nature"
+		},
+		"components": {
+			"minecraft:icon": "red_shell",
+			"minecraft:render_offsets": "tools",
+			"minecraft:hover_text_color": "red"
+		}
+	}
+}
