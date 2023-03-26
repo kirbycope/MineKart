@@ -6,7 +6,8 @@
             "category": "Equipment"
         },
         "components": {
-            "minecraft:icon": "green_shell"
+            "minecraft:icon": "green_shell",
+			"minecraft:hover_text_color": "green"
         }
     }
 }
