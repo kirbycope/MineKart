@@ -11,14 +11,14 @@ Minecraft meets Mario Kart.
 ## Behaviors
  - [Block] Item Box: todo
  - [Entity] Mario_kart: Tamed and saddled when summoned. Has 6 HP. Likes to go fast.
- - ![Item](/development_resource_packs/Mario%20Kart/textures/items/banana.png) Banana: todo
- - ![Item](/development_resource_packs/Mario%20Kart/textures/items/boo.png) Boo: Item turns player invisible for a moment.
- - ![Item](/development_resource_packs/Mario%20Kart/textures/items/green_shell.png) Green_shell: Throws a turtle sheel, dealing 6 damage.
- - ![Item](/development_resource_packs/Mario%20Kart/textures/items/lightning.png) Lightning: todo
- - ![Item](/development_resource_packs/Mario%20Kart/textures/items/mushroom.png) Mushroom: Gives the player a short speed boost.
- - ![Item](/development_resource_packs/Mario%20Kart/textures/items/red_shell.png) Red_shell: todo
- - ![Item](/development_resource_packs/Mario%20Kart/textures/items/spiny_shell.png) Spiny_shell: todo
- - ![Item](/development_resource_packs/Mario%20Kart/textures/items/star.png) Star: Gives the player some temporary buffs.
+ - ![Item](/development_resource_packs/MineKart/textures/items/banana.png) Banana: todo
+ - ![Item](/development_resource_packs/MineKart/textures/items/boo.png) Boo: Item turns player invisible for a moment.
+ - ![Item](/development_resource_packs/MineKart/textures/items/green_shell.png) Green_shell: Throws a turtle sheel, dealing 6 damage.
+ - ![Item](/development_resource_packs/MineKart/textures/items/lightning.png) Lightning: todo
+ - ![Item](/development_resource_packs/MineKart/textures/items/mushroom.png) Mushroom: Gives the player a short speed boost.
+ - ![Item](/development_resource_packs/MineKart/textures/items/red_shell.png) Red_shell: todo
+ - ![Item](/development_resource_packs/MineKart/textures/items/spiny_shell.png) Spiny_shell: todo
+ - ![Item](/development_resource_packs/MineKart/textures/items/star.png) Star: Gives the player some temporary buffs.
  
  ## Development Notes
  - [Mario Kart 8 model](https://sketchfab.com/3d-models/mario-kart-9ebfca0ce8f9486f8baf7deb75826f18)

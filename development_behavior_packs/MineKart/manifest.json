@@ -1,8 +1,8 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "Mario Kart",
-		"description": "Mario Kart Behavior Pack",
+		"name": "MineKart",
+		"description": "MineKart Behavior Pack",
 		"uuid": "27818ff2-ad0e-1c01-4ef5-9d3f267663c1",
 		"version": [1, 0, 0],
 		"min_engine_version": [1, 16, 0]
