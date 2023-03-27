@@ -1,7 +1,7 @@
 ![MineKart](/MineKart.png)
 
 # MineKart
-Minecraft meets Mario Kart.
+Minecraft meets Mario Kart in this multiplayer mash-up.
 
 ## Installation
 1. Download the [mcaddon](https://github.com/kirbycope/MineKart/raw/main/MineKart.mcaddon)
