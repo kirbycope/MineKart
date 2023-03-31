@@ -9,8 +9,8 @@ Minecraft meets Mario Kart in this multiplayer mash-up.
 1. Load the Resource and Behaviour packs for your world/save
 
 ## Behaviors
- - ![Block](/item-box.gif) Item Box: todo
- - [Entity] Mario Kart: Tamed and saddled when summoned. Has 6 HP. It likes to go fast.
+ - ![Block](/item-box.gif) Item Box: _todo_
+ - ![Entity](/development_resource_packs/MineKart/textures/items/mario_kart_spawn_egg.png) Mario Kart: Spawns a kart (tamed and saddled). Has 6 HP.
  - ![Item](/development_resource_packs/MineKart/textures/items/ballon.png) Ballon: _todo_
  - ![Item](/development_resource_packs/MineKart/textures/items/banana.png) Banana: _todo_
  - ![Item](/development_resource_packs/MineKart/textures/items/boo.png) Boo: The item turns the player invisible for a moment.
