@@ -9,15 +9,16 @@ Minecraft meets Mario Kart in this multiplayer mash-up.
 1. Load the Resource and Behaviour packs for your world/save
 
 ## Behaviors
- - [Block] Item Box: todo
+ - ![Block](/item-box.gif) Item Box: todo
  - [Entity] Mario Kart: Tamed and saddled when summoned. Has 6 HP. It likes to go fast.
- - ![Item](/development_resource_packs/MineKart/textures/items/banana.png) Banana: todo
+ - ![Item](/development_resource_packs/MineKart/textures/items/ballon.png) Ballon: _todo_
+ - ![Item](/development_resource_packs/MineKart/textures/items/banana.png) Banana: _todo_
  - ![Item](/development_resource_packs/MineKart/textures/items/boo.png) Boo: The item turns the player invisible for a moment.
  - ![Item](/development_resource_packs/MineKart/textures/items/green_shell.png) Green Shell: Throws a turtle shell, dealing 6 damage.
- - ![Item](/development_resource_packs/MineKart/textures/items/lightning.png) Lightning: todo
+ - ![Item](/development_resource_packs/MineKart/textures/items/lightning.png) Lightning: _todo_
  - ![Item](/development_resource_packs/MineKart/textures/items/mushroom.png) Mushroom: Gives the player a short speed boost.
- - ![Item](/development_resource_packs/MineKart/textures/items/red_shell.png) Red Shell: todo
- - ![Item](/development_resource_packs/MineKart/textures/items/spiny_shell.png) Spiny Shell: todo
+ - ![Item](/development_resource_packs/MineKart/textures/items/red_shell.png) Red Shell: _todo_
+ - ![Item](/development_resource_packs/MineKart/textures/items/spiny_shell.png) Spiny Shell: _todo_
  - ![Item](/development_resource_packs/MineKart/textures/items/star.png) Star: Gives the player some temporary buffs.
  
  ## Development Notes
