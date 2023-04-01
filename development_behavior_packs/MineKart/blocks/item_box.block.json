@@ -2,7 +2,7 @@
 	"format_version": "1.19.50",
 	"minecraft:block": {
 		"description": {
-			"identifier": "kirbycope:item_box",
+			"identifier": "minekart:item_box",
 			"menu_category": {
 				"category": "construction"
 			}

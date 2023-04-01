@@ -2,7 +2,7 @@
 	"format_version": "1.10",
 	"minecraft:item": {
 		"description": {
-			"identifier": "kirbycope:spiny_shell",
+			"identifier": "minekart:spiny_shell",
 			"category": "Nature"
 		},
 		"components": {

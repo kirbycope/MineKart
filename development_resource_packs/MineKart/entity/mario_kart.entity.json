@@ -2,7 +2,7 @@
 	"format_version": "1.10.0",
 	"minecraft:client_entity": {
 		"description": {
-			"identifier": "kirbycope:mario_kart",
+			"identifier": "minekart:mario_kart",
 			"materials": {
 				"default": "entity_alphatest"
 			},

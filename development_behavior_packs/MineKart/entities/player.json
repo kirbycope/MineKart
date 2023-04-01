@@ -7,10 +7,11 @@
         "is_summonable": false,
         "is_experimental": false,
         "scripts": {
-            "animate": ["throwables_controller"]
+            "animate": ["throwables_controller", "red_shell"]
         },
         "animations": {
-            "throwables_controller": "controller.animation.player.throwables"
+            "throwables_controller": "controller.animation.player.throwables",
+            "red_shell": "controller.animation.player.red_shell"
         }
       },
   
@@ -51,15 +52,26 @@
           }
         },
         "wiki:throw_entity": {
-            "minecraft:spawn_entity": {
-                "entities": {
-                    "min_wait_time": 0,
-                    "max_wait_time": 0,
-                    "single_use": true,
-                    "spawn_entity": "wiki:throwable_item_entity",
-                    "num_to_spawn": 1
-                }
+          "minecraft:spawn_entity": {
+            "entities": {
+              "min_wait_time": 0,
+              "max_wait_time": 0,
+              "single_use": true,
+              "spawn_entity": "minekart:green_shell_entity",
+              "num_to_spawn": 1
             }
+          }
+        },
+        "minekart:throw_red_shell_entity": {
+          "minecraft:spawn_entity": {
+            "entities": {
+              "min_wait_time": 0,
+              "max_wait_time": 0,
+              "single_use": true,
+              "spawn_entity": "minekart:red_shell_entity",
+              "num_to_spawn": 1
+            }
+          }
         }
       },
   
@@ -219,19 +231,25 @@
           }
         },
         "wiki:reset_player": {
-            "remove": {
-              "component_groups": [
-                "wiki:throw_entity"
-              ]
-            }
-          },
-          "wiki:throw_item": {
-            "add": {
-              "component_groups": [
-                "wiki:throw_entity"
-              ]
-            }
+          "remove": {
+            "component_groups": ["wiki:throw_entity"]
           }
+        },
+        "wiki:throw_item": {
+          "add": {
+            "component_groups": ["wiki:throw_entity"]
+          }
+        },
+        "minekart:reset_red_shell": {
+          "remove": {
+            "component_groups": ["minekart:throw_red_shell_entity"]
+          }
+        },
+        "minekart:throw_red_shell": {
+          "add": {
+            "component_groups": ["minekart:throw_red_shell_entity"]
+          }
+        }
       }
     }
   }

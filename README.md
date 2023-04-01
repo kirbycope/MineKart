@@ -27,4 +27,3 @@ Minecraft meets Mario Kart in this multiplayer mash-up.
  - [Mario emblem](https://en.wikipedia.org/wiki/File:Mario_emblem.svg)
  - [Mario Kart Super Circuit item spites](https://www.spriters-resource.com/game_boy_advance/mariokartsupercircuit/sheet/5478/)
  - [Bedrock thorwable items](https://wiki.bedrock.dev/items/throwable.html#stable-method)
- 

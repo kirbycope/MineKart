@@ -1,11 +1,11 @@
 {
 	"entity_sounds": {
 		"entities": {
-			"kirbycope:mario_kart": {
+			"minekart:mario_kart": {
 				"events": {
 					"jump": {
 						"pitch": 1,
-						"sound": "mob.kirbycope.mario_kart.jump",
+						"sound": "mob.minekart.mario_kart.jump",
 						"volume": 0.4
 					}
 				},

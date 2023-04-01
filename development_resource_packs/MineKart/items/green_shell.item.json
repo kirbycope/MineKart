@@ -2,11 +2,12 @@
     "format_version": "1.16.0",
     "minecraft:item": {
         "description": {
-            "identifier": "wiki:throwable_item",
+            "identifier": "minekart:green_shell",
             "category": "Equipment"
         },
         "components": {
             "minecraft:icon": "green_shell",
+			"minecraft:render_offsets": "tools",
 			"minecraft:hover_text_color": "green"
         }
     }

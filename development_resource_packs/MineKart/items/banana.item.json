@@ -2,7 +2,7 @@
 	"format_version": "1.10",
 	"minecraft:item": {
 		"description": {
-			"identifier": "kirbycope:banana",
+			"identifier": "minekart:banana",
 			"category": "Nature"
 		},
 		"components": {

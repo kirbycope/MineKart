@@ -2,7 +2,7 @@
 	"format_version": "1.16.0",
 	"minecraft:entity": {
 		"description": {
-			"identifier": "wiki:throwable_item_entity",
+			"identifier": "minekart:red_shell_entity",
 			"is_spawnable": false,
 			"is_summonable": true,
 			"is_experimental": false,
@@ -23,7 +23,8 @@
 				"power": 0.7,
 				"gravity": 0.03,
 				"angle_offset": -20.0,
-				"hit_sound": "glass"
+				"hit_ground_sound": "bullet.hit",
+				"hit_sound": "bullet.hit"
 			},
 			"minecraft:physics": {},
 			"minecraft:pushable": {

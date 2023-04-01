@@ -2,7 +2,7 @@
 	"format_version": "1.10",
 	"minecraft:item": {
 		"description": {
-			"identifier": "kirbycope:red_shell",
+			"identifier": "minekart:red_shell",
 			"category": "Nature"
 		},
 		"components": {

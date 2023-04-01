@@ -1,31 +1,55 @@
 {
-    "format_version": "1.10.0",
-    "animation_controllers": {
-      "controller.animation.player.throwables": {
-        "states": {
-          "default": {
-            "transitions": [
-              {
-                "throw_item": "query.is_item_name_any('slot.weapon.mainhand', 0, 'wiki:throwable_item') && query.is_using_item"
-              }
-            ],
-            "on_entry": [
-              "@s wiki:reset_player"
-            ]
-          },
-          "throw_item": {
-            "transitions": [
-              {
-                "default": "1.0"
-              }
-            ],
-            "on_entry": [
-              "@s wiki:throw_item",
-              "/clear @s wiki:throwable_item -1 1"
-            ]
-          }
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.player.throwables": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "throw_item": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minekart:green_shell') && query.is_using_item"
+            }
+          ],
+          "on_entry": [
+            "@s wiki:reset_player"
+          ]
+        },
+        "throw_item": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "@s wiki:throw_item",
+            "/clear @s minekart:green_shell -1 1"
+          ]
+        }
+      }
+    },
+    "controller.animation.player.red_shell": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "throw_red_shell": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minekart:red_shell') && query.is_using_item"
+            }
+          ],
+          "on_entry": [
+            "@s minekart:reset_red_shell"
+          ]
+        },
+        "throw_red_shell": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "@s minekart:throw_red_shell",
+            "/clear @s minekart:red_shell -1 1"
+          ]
         }
       }
     }
   }
-  
+}
