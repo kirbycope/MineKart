@@ -50,6 +50,31 @@
           ]
         }
       }
+    },
+    "controller.animation.player.spiny_shell": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "throw_spiny_shell": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minekart:spiny_shell') && query.is_using_item"
+            }
+          ],
+          "on_entry": [
+            "@s minekart:reset_spiny_shell"
+          ]
+        },
+        "throw_spiny_shell": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "@s minekart:throw_spiny_shell",
+            "/clear @s minekart:spiny_shell -1 1"
+          ]
+        }
+      }
     }
   }
 }
