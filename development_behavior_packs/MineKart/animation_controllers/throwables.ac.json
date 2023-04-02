@@ -1,7 +1,7 @@
 {
   "format_version": "1.10.0",
   "animation_controllers": {
-    "controller.animation.player.throwables": {
+    "controller.animation.player.green_shell": {
       "states": {
         "default": {
           "transitions": [
@@ -10,7 +10,7 @@
             }
           ],
           "on_entry": [
-            "@s wiki:reset_player"
+            "@s minekart:reset_green_shell"
           ]
         },
         "throw_item": {
@@ -20,7 +20,7 @@
             }
           ],
           "on_entry": [
-            "@s wiki:throw_item",
+            "@s minekart:throw_green_shell",
             "/clear @s minekart:green_shell -1 1"
           ]
         }
