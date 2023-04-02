@@ -15,7 +15,7 @@ Minecraft meets Mario Kart in this multiplayer mash-up.
  - ![Item](/development_resource_packs/MineKart/textures/items/banana.png) Banana: _todo_
  - ![Item](/development_resource_packs/MineKart/textures/items/boo.png) Boo: The item turns the player invisible for a moment.
  - ![Item](/development_resource_packs/MineKart/textures/items/green_shell.png) Green Shell: Throws a turtle shell, dealing 6 damage.
- - ![Item](/development_resource_packs/MineKart/textures/items/lightning.png) Lightning: Hits all other players with a lightning blot.
+ - ![Item](/development_resource_packs/MineKart/textures/items/lightning.png) Lightning: Hits all other players with a lightning bolt.
  - ![Item](/development_resource_packs/MineKart/textures/items/mushroom.png) Mushroom: Gives the player a short speed boost.
  - ![Item](/development_resource_packs/MineKart/textures/items/red_shell.png) Red Shell: Throws a turtle shell, dealing 6 damage.
  - ![Item](/development_resource_packs/MineKart/textures/items/spiny_shell.png) Spiny Shell: Throws a turtle shell, dealing 6 damage.
