@@ -1,19 +1,65 @@
 {
   "format_version": "1.10.0",
   "animation_controllers": {
+    "controller.animation.player.banana": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "use_banana": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minekart:banana') && query.is_using_item"
+            }
+          ]
+        },
+        "use_banana": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/clear @s minekart:banana -1 1"
+          ]
+        }
+      }
+    },
+    "controller.animation.player.boo": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "use_boo": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minekart:boo') && query.is_using_item"
+            }
+          ]
+        },
+        "use_boo": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/clear @s minekart:boo -1 1",
+            "/effect @s absorption 6 3",
+            "/effect @s invisibility 10 1",
+            "/effect @s resistance 6 0",
+            "/playsound item.minekart.boo.use @s ~ ~ ~ 0.5"
+          ]
+        }
+      }
+    },
     "controller.animation.player.green_shell": {
       "states": {
         "default": {
           "transitions": [
             {
-              "throw_item": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minekart:green_shell') && query.is_using_item"
+              "throw_green_shell": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minekart:green_shell') && query.is_using_item"
             }
           ],
           "on_entry": [
             "@s minekart:reset_green_shell"
           ]
         },
-        "throw_item": {
+        "throw_green_shell": {
           "transitions": [
             {
               "default": "1.0"
@@ -22,6 +68,51 @@
           "on_entry": [
             "@s minekart:throw_green_shell",
             "/clear @s minekart:green_shell -1 1"
+          ]
+        }
+      }
+    },
+    "controller.animation.player.lightning": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "use_lightning": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minekart:lightning') && query.is_using_item"
+            }
+          ]
+        },
+        "use_lightning": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/clear @s minekart:lightning -1 1",
+            "/tag @e[type=minekart:mario_kart,rm=1] add lightning"
+          ]
+        }
+      }
+    },
+    "controller.animation.player.mushroom": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "use_mushroom": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minekart:mushroom') && query.is_using_item"
+            }
+          ]
+        },
+        "use_mushroom": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/clear @s minekart:mushroom -1 1",
+            "/effect @s speed 4 2",
+            "/playsound item.minekart.mushroom.use @s ~ ~ ~ 0.5"
           ]
         }
       }
@@ -73,6 +164,30 @@
           "on_entry": [
             "@s minekart:throw_spiny_shell",
             "/clear @s minekart:spiny_shell -1 1"
+          ]
+        }
+      }
+    },
+    "controller.animation.player.star": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "use_star": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minekart:star') && query.is_using_item"
+            }
+          ]
+        },
+        "use_star": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/clear @s minekart:star -1 1",
+            "/effect @s absorption 6 3",
+            "/effect @s resistance 6 0",
+            "/playsound item.minekart.star.use @s ~ ~ ~ 0.5"
           ]
         }
       }

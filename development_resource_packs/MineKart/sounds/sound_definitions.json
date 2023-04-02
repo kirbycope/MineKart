@@ -1,10 +1,28 @@
 {
-    "format_version": "1.14.0",
+    "format_version": "1.16.0",
     "sound_definitions": {
         "mob.minekart.mario_kart.jump": {
             "category": "neutral",
             "sounds": [
                 "sounds/mob/mario_kart/jump"
+            ]
+        },
+        "item.minekart.boo.use": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/item/boo/use"
+            ]
+        },
+        "item.minekart.mushroom.use": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/item/mushroom/use"
+            ]
+        },
+        "item.minekart.star.use": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/item/star/use"
             ]
         }
     }

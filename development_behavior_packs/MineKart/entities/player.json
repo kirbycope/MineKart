@@ -7,12 +7,17 @@
         "is_summonable": false,
         "is_experimental": false,
         "scripts": {
-            "animate": ["green_shell", "red_shell", "spiny_shell"]
+            "animate": ["banana", "boo", "green_shell", "lightning", "mushroom", "red_shell", "spiny_shell", "star"]
         },
         "animations": {
+            "banana": "controller.animation.player.banana",
+            "boo": "controller.animation.player.boo",
             "green_shell": "controller.animation.player.green_shell",
+            "lightning": "controller.animation.player.lightning",
+            "mushroom": "controller.animation.player.mushroom",
             "red_shell": "controller.animation.player.red_shell",
-            "spiny_shell": "controller.animation.player.spiny_shell"
+            "spiny_shell": "controller.animation.player.spiny_shell",
+            "star": "controller.animation.player.star"
         }
       },
   

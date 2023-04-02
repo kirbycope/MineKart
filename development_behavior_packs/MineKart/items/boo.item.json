@@ -1,26 +1,15 @@
 {
-    "format_version": "1.10",
-    "minecraft:item": {
-        "description": {
-            "identifier": "minekart:boo"
-        },
-        "components": {
-            "minecraft:hand_equipped": false,
-            "minecraft:stacked_by_data": true,
-            "minecraft:foil": false,
-            "minecraft:max_stack_size": 64,
-            "minecraft:use_duration": 1,
-            "minecraft:food": {
-                "can_always_eat": true,
-                "effects": [
-                    {
-                        "name": "invisibility",
-                        "chance": 1.0,
-                        "duration": 2,
-                        "amplifier": 4
-                    }
-                ]
-            }
-        }
+  "format_version": "1.16.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minekart:boo"
+    },
+    "components": {
+      "minecraft:max_stack_size": 64,
+      "minecraft:use_duration": 12000,
+      "minecraft:food": {
+        "can_always_eat": true
+      }
     }
+  }
 }

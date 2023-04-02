@@ -3,7 +3,7 @@
     "minecraft:item": {
         "description": {
             "identifier": "minekart:green_shell",
-            "category": "Equipment"
+            "category": "Nature"
         },
         "components": {
             "minecraft:icon": "green_shell",
