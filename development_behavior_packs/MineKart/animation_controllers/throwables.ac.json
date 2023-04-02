@@ -46,7 +46,8 @@
           ],
           "on_entry": [
             "@s minekart:throw_red_shell",
-            "/clear @s minekart:red_shell -1 1"
+            "/clear @s minekart:red_shell -1 1",
+            "/tag @e[type=minekart:mario_kart,c=1,rm=1] add homing"
           ]
         }
       }
