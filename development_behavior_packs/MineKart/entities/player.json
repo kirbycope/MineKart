@@ -52,7 +52,7 @@
             "remove_effects": "bad_omen"
           }
         },
-        "wiki:throw_entity": {
+        "minekart:throw_green_shell_entity": {
           "minecraft:spawn_entity": {
             "entities": {
               "min_wait_time": 0,
