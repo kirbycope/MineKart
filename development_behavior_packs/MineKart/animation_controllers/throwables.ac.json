@@ -112,7 +112,7 @@
           "on_entry": [
             "/clear @s minekart:mushroom -1 1",
             "/effect @s speed 4 2",
-            "/playsound item.minekart.mushroom.use @s ~ ~ ~ 0.5"
+            "/playsound item.minekart.mushroom.use @s ~ ~ ~ 0.25"
           ]
         }
       }
