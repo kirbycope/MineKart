@@ -7,11 +7,12 @@
         "is_summonable": false,
         "is_experimental": false,
         "scripts": {
-            "animate": ["banana", "blooper", "boo", "green_shell", "lightning", "mushroom", "red_shell", "spiny_shell", "star"]
+            "animate": ["banana", "blooper", "bob-omb", "boo", "green_shell", "lightning", "mushroom", "red_shell", "spiny_shell", "star"]
         },
         "animations": {
             "banana": "controller.animation.player.banana",
             "blooper": "controller.animation.player.blooper",
+            "bob-omb": "controller.animation.player.bob-omb",
             "boo": "controller.animation.player.boo",
             "green_shell": "controller.animation.player.green_shell",
             "lightning": "controller.animation.player.lightning",
@@ -56,6 +57,17 @@
           },
           "minecraft:spell_effects": {
             "remove_effects": "bad_omen"
+          }
+        },
+        "minekart:throw_bob_omb_entity": {
+          "minecraft:spawn_entity": {
+            "entities": {
+              "min_wait_time": 0,
+              "max_wait_time": 0,
+              "single_use": true,
+              "spawn_entity": "minekart:bob-omb_entity",
+              "num_to_spawn": 1
+            }
           }
         },
         "minekart:throw_green_shell_entity": {
@@ -246,6 +258,16 @@
         "minecraft:remove_raid_trigger": {
           "remove": {
             "component_groups": [ "minecraft:raid_trigger" ]
+          }
+        },
+        "minekart:reset_bob_omb": {
+          "remove": {
+            "component_groups": ["minekart:throw_bob_omb_entity"]
+          }
+        },
+        "minekart:throw_bob_omb": {
+          "add": {
+            "component_groups": ["minekart:throw_bob_omb_entity"]
           }
         },
         "minekart:reset_green_shell": {

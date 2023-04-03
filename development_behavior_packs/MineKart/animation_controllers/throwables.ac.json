@@ -22,6 +22,31 @@
         }
       }
     },
+    "controller.animation.player.bob-omb": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "throw_bob_omb": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minekart:bob-omb') && query.is_using_item"
+            }
+          ],
+          "on_entry": [
+            "@s minekart:reset_bob_omb"
+          ]
+        },
+        "throw_bob_omb": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "@s minekart:throw_bob_omb",
+            "/clear @s minekart:bob-omb -1 1"
+          ]
+        }
+      }
+    },
     "controller.animation.player.boo": {
       "states": {
         "default": {

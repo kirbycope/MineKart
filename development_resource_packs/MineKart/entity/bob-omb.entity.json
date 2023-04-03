@@ -1,0 +1,20 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minekart:bob-omb_entity",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/bob-omb"
+			},
+			"geometry": {
+				"default": "geometry.bob-omb"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			]
+		}
+	}
+}
