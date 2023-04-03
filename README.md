@@ -14,7 +14,8 @@ Minecraft meets Mario Kart in this multiplayer mash-up.
  - ![Item](/development_resource_packs/MineKart/textures/items/ballon_32.png) Ballon: _todo_
  - ![Item](/development_resource_packs/MineKart/textures/items/banana_32.png) Banana: _todo_
  - ![Item](/development_resource_packs/MineKart/textures/items/blooper_32.png) Blooper: Gives all other players blindness for 6 seconds.
- - ![Item](/development_resource_packs/MineKart/textures/items/boo_32.png) Boo: Gives the player invisibility for 10 seconds.
+ - ![Item](/development_resource_packs/MineKart/textures/items/bob-omb_32.png) Bob-omb: Explodes where it lands, dealing 6 damage.
+- ![Item](/development_resource_packs/MineKart/textures/items/boo_32.png) Boo: Gives the player invisibility for 10 seconds.
  - ![Item](/development_resource_packs/MineKart/textures/items/green_shell_32.png) Green Shell: Throws a turtle shell, dealing 6 damage.
  - ![Item](/development_resource_packs/MineKart/textures/items/lightning_32.png) Lightning: Hits all other karts with a lightning bolt.
  - ![Item](/development_resource_packs/MineKart/textures/items/mushroom_32.png) Mushroom: Gives the player a short speed boost.

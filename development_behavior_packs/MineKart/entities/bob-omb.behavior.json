@@ -8,6 +8,16 @@
 			"is_experimental": false,
 			"runtime_identifier": "minecraft:snowball"
 		},
+		"component_groups": {
+			"minecraft:exploding": {
+				"minecraft:explode": {
+					"breaks_blocks": false,
+					"fuse_length": 0,
+					"fuse_lit": true,
+					"power": 1
+				}
+			}
+		},
 		"components": {
 			"minecraft:collision_box": {
 				"width": 0.25,
@@ -18,7 +28,13 @@
 					"impact_damage": {
 						"damage": 6
 					},
-					"remove_on_hit": {}
+					"definition_event": {
+						"affect_projectile": true,
+						"event_trigger": {
+							"event": "minecraft:explode",
+							"target": "self"
+						}
+					}
 				},
 				"power": 0.7,
 				"gravity": 0.03,
@@ -39,7 +55,16 @@
 				}
 			},
 			"minecraft:scale": {
-				"value":0.5
+				"value": 0.5
+			}
+		},
+		"events": {
+			"minecraft:explode": {
+				"add": {
+					"component_groups": [
+						"minecraft:exploding"
+					]
+				}
 			}
 		}
 	}
