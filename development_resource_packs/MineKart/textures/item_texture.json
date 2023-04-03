@@ -6,6 +6,9 @@
 		"blooper": {
 			"textures": ["textures/items/blooper_32"]
 		},
+		"bob-omb": {
+			"textures": ["textures/items/bob-omb_32"]
+		},
 		"boo": {
 			"textures": ["textures/items/boo_32"]
 		},
