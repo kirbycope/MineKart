@@ -2,7 +2,7 @@
 	"format_version": "1.16.0",
 	"minecraft:entity": {
 		"description": {
-			"identifier": "minekart:bob_omb_entity",
+			"identifier": "minekart:bob-omb_entity",
 			"is_spawnable": false,
 			"is_summonable": true,
 			"is_experimental": false,
