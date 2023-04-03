@@ -6,6 +6,7 @@ action.interact.ride.minekart:mario_kart=Board
 tile.minekart:item_box.name=Item Box
 item.minekart:banana.name=Banana
 item.minekart:boo.name=Boo
+item.minekart:blooper.name=Blooper
 item.minekart:green_shell.name=Green Shell
 item.minekart:lightning.name=Lightning
 item.minekart:mushroom.name=Mushroom

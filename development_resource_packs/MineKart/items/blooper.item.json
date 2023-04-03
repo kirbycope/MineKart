@@ -1,0 +1,14 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "minekart:blooper",
+			"category": "Nature"
+		},
+		"components": {
+			"minecraft:icon": "blooper",
+			"minecraft:render_offsets": "tools",
+			"minecraft:hover_text_color": "white"
+		}
+	}
+}

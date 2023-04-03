@@ -6,24 +6,6 @@
             "sounds": [
                 "sounds/mob/mario_kart/jump"
             ]
-        },
-        "item.minekart.boo.use": {
-            "category": "neutral",
-            "sounds": [
-                "sounds/item/boo/use"
-            ]
-        },
-        "item.minekart.mushroom.use": {
-            "category": "neutral",
-            "sounds": [
-                "sounds/item/mushroom/use"
-            ]
-        },
-        "item.minekart.star.use": {
-            "category": "neutral",
-            "sounds": [
-                "sounds/item/star/use"
-            ]
         }
     }
 }

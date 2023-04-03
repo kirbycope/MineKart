@@ -7,10 +7,11 @@
         "is_summonable": false,
         "is_experimental": false,
         "scripts": {
-            "animate": ["banana", "boo", "green_shell", "lightning", "mushroom", "red_shell", "spiny_shell", "star"]
+            "animate": ["banana", "blooper", "boo", "green_shell", "lightning", "mushroom", "red_shell", "spiny_shell", "star"]
         },
         "animations": {
             "banana": "controller.animation.player.banana",
+            "blooper": "controller.animation.player.blooper",
             "boo": "controller.animation.player.boo",
             "green_shell": "controller.animation.player.green_shell",
             "lightning": "controller.animation.player.lightning",

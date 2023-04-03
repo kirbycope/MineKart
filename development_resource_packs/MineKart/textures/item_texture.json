@@ -1,31 +1,34 @@
 {
 	"texture_data": {
 		"banana": {
-			"textures": ["textures/items/banana"]
+			"textures": ["textures/items/banana_32"]
+		},
+		"blooper": {
+			"textures": ["textures/items/blooper_32"]
 		},
 		"boo": {
-			"textures": ["textures/items/boo"]
+			"textures": ["textures/items/boo_32"]
 		},
 		"green_shell": {
-			"textures": ["textures/items/green_shell"]
+			"textures": ["textures/items/green_shell_32"]
 		},
 		"lightning": {
-			"textures": ["textures/items/lightning"]
+			"textures": ["textures/items/lightning_32"]
 		},
 		"mario_kart_spawn_egg": {
-			"textures": ["textures/items/mario_kart_spawn_egg"]
+			"textures": ["textures/items/mario_kart_spawn_egg_32"]
 		},
 		"mushroom": {
-			"textures": ["textures/items/mushroom"]
+			"textures": ["textures/items/mushroom_32"]
 		},
 		"red_shell": {
-			"textures": ["textures/items/red_shell"]
+			"textures": ["textures/items/red_shell_32"]
 		},
 		"spiny_shell": {
-			"textures": ["textures/items/spiny_shell"]
+			"textures": ["textures/items/spiny_shell_32"]
 		},
 		"star": {
-			"textures": ["textures/items/star"]
+			"textures": ["textures/items/star_32"]
 		}
 	}
 }

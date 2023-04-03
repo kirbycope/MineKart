@@ -41,8 +41,32 @@
             "/clear @s minekart:boo -1 1",
             "/effect @s absorption 6 3",
             "/effect @s invisibility 10 1",
+            "/effect @e[c=1] invisibility 10 1",
             "/effect @s resistance 6 0",
-            "/playsound item.minekart.boo.use @s ~ ~ ~ 0.5"
+            "/playsound mob.ghast.scream @s ~ ~ ~"
+          ]
+        }
+      }
+    },
+    "controller.animation.player.blooper": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "use_blooper": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minekart:blooper') && query.is_using_item"
+            }
+          ]
+        },
+        "use_blooper": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/clear @s minekart:blooper -1 1",
+            "/effect @p[rm=1] blindness 6",
+            "/playsound mob.squid.ink_squirt @s ~ ~ ~"
           ]
         }
       }
@@ -112,7 +136,7 @@
           "on_entry": [
             "/clear @s minekart:mushroom -1 1",
             "/effect @s speed 4 2",
-            "/playsound item.minekart.mushroom.use @s ~ ~ ~ 0.25"
+            "/playsound firework.launch @s ~ ~ ~"
           ]
         }
       }
@@ -187,7 +211,7 @@
             "/clear @s minekart:star -1 1",
             "/effect @s absorption 6 3",
             "/effect @s resistance 6 0",
-            "/playsound item.minekart.star.use @s ~ ~ ~ 0.5"
+            "/playsound random.levelup @s ~ ~ ~"
           ]
         }
       }

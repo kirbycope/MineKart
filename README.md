@@ -10,20 +10,23 @@ Minecraft meets Mario Kart in this multiplayer mash-up.
 
 ## Behaviors
  - ![Block](/item-box.gif) Item Box: _todo_
- - ![Entity](/development_resource_packs/MineKart/textures/items/mario_kart_spawn_egg.png) Mario Kart: Spawns a kart (tamed and saddled). Has 6 HP.
- - ![Item](/development_resource_packs/MineKart/textures/items/ballon.png) Ballon: _todo_
- - ![Item](/development_resource_packs/MineKart/textures/items/banana.png) Banana: _todo_
- - ![Item](/development_resource_packs/MineKart/textures/items/boo.png) Boo: The item turns the player invisible for a moment.
- - ![Item](/development_resource_packs/MineKart/textures/items/green_shell.png) Green Shell: Throws a turtle shell, dealing 6 damage.
- - ![Item](/development_resource_packs/MineKart/textures/items/lightning.png) Lightning: Hits all other players with a lightning bolt.
- - ![Item](/development_resource_packs/MineKart/textures/items/mushroom.png) Mushroom: Gives the player a short speed boost.
- - ![Item](/development_resource_packs/MineKart/textures/items/red_shell.png) Red Shell: Throws a turtle shell, dealing 6 damage.
- - ![Item](/development_resource_packs/MineKart/textures/items/spiny_shell.png) Spiny Shell: Throws a turtle shell, dealing 6 damage.
- - ![Item](/development_resource_packs/MineKart/textures/items/star.png) Star: Gives the player some temporary buffs.
+ - ![Entity](/development_resource_packs/MineKart/textures/items/mario_kart_spawn_egg_32.png) Mario Kart: Spawns a kart (tamed and saddled). Has 6 HP.
+ - ![Item](/development_resource_packs/MineKart/textures/items/ballon_32.png) Ballon: _todo_
+ - ![Item](/development_resource_packs/MineKart/textures/items/banana_32.png) Banana: _todo_
+ - ![Item](/development_resource_packs/MineKart/textures/items/blooper_32.png) Blooper: Gives all other players blindness for 6 seconds.
+ - ![Item](/development_resource_packs/MineKart/textures/items/boo_32.png) Boo: Gives the player invisibility for 10 seconds.
+ - ![Item](/development_resource_packs/MineKart/textures/items/green_shell_32.png) Green Shell: Throws a turtle shell, dealing 6 damage.
+ - ![Item](/development_resource_packs/MineKart/textures/items/lightning_32.png) Lightning: Hits all other karts with a lightning bolt.
+ - ![Item](/development_resource_packs/MineKart/textures/items/mushroom_32.png) Mushroom: Gives the player a short speed boost.
+ - ![Item](/development_resource_packs/MineKart/textures/items/red_shell_32.png) Red Shell: Throws a turtle shell, dealing 6 damage.
+ - ![Item](/development_resource_packs/MineKart/textures/items/spiny_shell_32.png) Spiny Shell: Throws a turtle shell, dealing 6 damage.
+ - ![Item](/development_resource_packs/MineKart/textures/items/star_32.png) Star: Gives the player some temporary buffs.
  
  ## Development Notes
  - [Mario Kart 8 model](https://sketchfab.com/3d-models/mario-kart-9ebfca0ce8f9486f8baf7deb75826f18)
  - [Mario Kart 8 sounds effects](https://soundeffects.fandom.com/wiki/Mario_Kart_8)
  - [Mario emblem](https://en.wikipedia.org/wiki/File:Mario_emblem.svg)
  - [Mario Kart Super Circuit item spites](https://www.spriters-resource.com/game_boy_advance/mariokartsupercircuit/sheet/5478/)
+ - [Mario Kart DS Sprites](https://www.spriters-resource.com/ds_dsi/mariokartds/)
  - [Bedrock thorwable items](https://wiki.bedrock.dev/items/throwable.html#stable-method)
+ - [Faithful GUI texture](https://github.com/Faithful-Resource-Pack/Faithful-Java-32x/blob/1.19.4/assets/minecraft/textures/gui/icons.png)
