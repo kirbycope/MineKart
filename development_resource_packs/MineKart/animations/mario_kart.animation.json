@@ -30,6 +30,18 @@
 					}
 				}
 			}
+		},
+		"animation.mario_kart.spin": {
+			"loop": true,
+			"animation_length": 0.75,
+			"bones": {
+				"root": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.75": [0, 357.5, 0]
+					}
+				}
+			}
 		}
 	}
 }
