@@ -241,26 +241,6 @@
           ]
         }
       }
-    },
-    "controller.animation.banana_peel_find_player": {
-      "initial_state": "default",
-      "states": {
-        "default": {
-          "animations": ["find_player"],
-          "transitions": [{
-              "detected": "query.is_sheared"
-            }]
-        },
-        "detected": {
-          "animations": ["find_no_player"],
-          "transitions": [{
-              "default": "!query.is_sheared"
-          }],
-          "on_entry": [
-            "/say oink oink"
-          ]
-        }
-      }
     }
   }
 }
