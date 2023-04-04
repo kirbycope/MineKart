@@ -6,8 +6,7 @@
             "loop": true,
             "timeline": {
                 "0": [
-                    "/execute as @s if entity @e[type=player, r=4] run event entity @s wiki:player_detected",
-                    "/execute as @s if entity @e[type=player, r=4] run say Oink"
+                    "/execute as @s if entity @e[type=player, r=4] run event entity @s wiki:player_detected"
 
                 ]
             }
