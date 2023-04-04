@@ -5,13 +5,10 @@
 		"description": "MineKart Resource Pack",
 		"uuid": "179c6968-c192-8506-9ebb-10ec4599638a",
 		"version": [1, 0, 0],
-		"min_engine_version": [1, 16, 0]
+		"min_engine_version": [1, 19, 60]
 	},
 	"metadata": {
-		"authors": ["minekart"],
-		"generated_with": {
-			"blockbench_entity_wizard": ["1.1.1"]
-		}
+		"authors": ["Kirbycope"]
 	},
 	"modules": [
 		{
