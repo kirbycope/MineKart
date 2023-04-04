@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minekart:banana_peel",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/banana_peel"
+			},
+			"geometry": {
+				"default": "geometry.banana_peel"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#e8e41f",
+				"overlay_color": "#d2a800"
+			}
+		}
+	}
+}
