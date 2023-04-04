@@ -17,7 +17,8 @@
             }
           ],
           "on_entry": [
-            "/clear @s minekart:banana -1 1"
+            "/clear @s minekart:banana -1 1",
+            "/summon minekart:banana_peel ~ ~ ~"
           ]
         }
       }
