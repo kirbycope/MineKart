@@ -1,3 +1,6 @@
+# Banana
+#execute @p ~ ~ ~ detect ~ ~ ~ minekart:banana_peel -1 entity @e[type=cow,c=1]
+
 # Item Box
 execute @p[tag=!lotto] ~ ~ ~ detect ~ ~ ~ minekart:item_box 0 tag @s add lotto
 execute @a[tag=lotto] ~ ~ ~ function lotto
