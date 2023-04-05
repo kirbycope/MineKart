@@ -18,7 +18,8 @@
           ],
           "on_entry": [
             "/clear @s minekart:banana -1 1",
-            "/summon minekart:banana_peel ~ ~ ~"
+            "/summon minekart:banana_peel ^ ^ ^-6",
+            "/playsound hit.snow @s ~ ~ ~"
           ]
         }
       }

@@ -37,7 +37,7 @@
 				"value": 0.5
 			},
 			"minecraft:health": {
-				"value": 1
+				"value": 3
 			}
 		},
 		"events": {
