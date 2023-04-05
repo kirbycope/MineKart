@@ -5,7 +5,22 @@
 			"identifier": "minekart:banana_peel",
 			"is_spawnable": false,
 			"is_summonable": true,
-			"is_experimental": false
+			"is_experimental": false,
+			"animations": {
+				"manage_find_player": "controller.animation.banana_peel_find_player",
+				"find_player": "animation.banana_peel.find_player",
+				"find_no_player": "animation.banana_peel.find_no_player"
+			},
+			"scripts": {
+				"animate": [
+					"manage_find_player"
+				]
+			}
+		},
+		"component_groups": {
+			"banana_peel_sheared":{
+				"minecraft:is_sheared": {}
+			}
 		},
 		"components": {
 			"minecraft:physics": {
@@ -23,6 +38,22 @@
 			},
 			"minecraft:health": {
 				"value": 1
+			}
+		},
+		"events": {
+			"wiki:player_detected":{
+				"add": {
+				  "component_groups": [
+					"banana_peel_sheared"
+				  ]
+				}
+			  },
+			  "wiki:no_player_detected":{
+				"remove": {
+				  "component_groups": [
+					"banana_peel_sheared"
+				  ]
+				}
 			}
 		}
 	}

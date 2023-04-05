@@ -5,13 +5,10 @@
 		"description": "MineKart Behavior Pack",
 		"uuid": "27818ff2-ad0e-1c01-4ef5-9d3f267663c1",
 		"version": [1, 0, 0],
-		"min_engine_version": [1, 16, 0]
+		"min_engine_version": [1, 19, 60]
 	},
 	"metadata": {
-		"authors": ["Kirbycope"],
-		"generated_with": {
-			"blockbench_entity_wizard": ["1.1.1"]
-		}
+		"authors": ["Kirbycope"]
 	},
 	"modules": [
 		{
