@@ -9,13 +9,13 @@ Minecraft meets Mario Kart in this multiplayer mash-up.
 1. Load the Resource and Behaviour packs for your world/save
 
 ## Behaviors
- - ![Block](/item-box.gif) Item Box: _todo_
- - ![Entity](/development_resource_packs/MineKart/textures/items/mario_kart_spawn_egg_32.png) Mario Kart: Spawns a kart (tamed and saddled). Has 6 HP.
+ - ![Block](/item-box.gif) Item Box: Gives the player a random item.
+ - ![Entity](/development_resource_packs/MineKart/textures/items/mario_kart_spawn_egg_32.png) Mario Kart: Spawns a kart with 6 HP.
  - ![Item](/development_resource_packs/MineKart/textures/items/ballon_32.png) Ballon: _todo_
- - ![Item](/development_resource_packs/MineKart/textures/items/banana_32.png) Banana: _todo_
+ - ![Item](/development_resource_packs/MineKart/textures/items/banana_32.png) Banana: Makes kart spin and gives the player slowness for 2 seconds.
  - ![Item](/development_resource_packs/MineKart/textures/items/blooper_32.png) Blooper: Gives all other players blindness for 6 seconds.
  - ![Item](/development_resource_packs/MineKart/textures/items/bob-omb_32.png) Bob-omb: Explodes where it lands, dealing 6 damage.
-- ![Item](/development_resource_packs/MineKart/textures/items/boo_32.png) Boo: Gives the player invisibility for 10 seconds.
+ - ![Item](/development_resource_packs/MineKart/textures/items/boo_32.png) Boo: Gives the player invisibility/invulnerability for 10 seconds.
  - ![Item](/development_resource_packs/MineKart/textures/items/green_shell_32.png) Green Shell: Throws a turtle shell, dealing 6 damage.
  - ![Item](/development_resource_packs/MineKart/textures/items/lightning_32.png) Lightning: Hits all other karts with a lightning bolt.
  - ![Item](/development_resource_packs/MineKart/textures/items/mushroom_32.png) Mushroom: Gives the player a short speed boost.
@@ -30,4 +30,5 @@ Minecraft meets Mario Kart in this multiplayer mash-up.
  - [Mario Kart Super Circuit item spites](https://www.spriters-resource.com/game_boy_advance/mariokartsupercircuit/sheet/5478/)
  - [Mario Kart DS Sprites](https://www.spriters-resource.com/ds_dsi/mariokartds/)
  - [Bedrock thorwable items](https://wiki.bedrock.dev/items/throwable.html#stable-method)
+ - [Bedrock detecting other enemies](https://wiki.bedrock.dev/entities/detecting-other-entities.html)
  - [Faithful GUI texture](https://github.com/Faithful-Resource-Pack/Faithful-Java-32x/blob/1.19.4/assets/minecraft/textures/gui/icons.png)
