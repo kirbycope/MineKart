@@ -43,7 +43,8 @@
           ],
           "on_entry": [
             "@s minekart:throw_bob_omb",
-            "/clear @s minekart:bob-omb -1 1"
+            "/clear @s minekart:bob-omb -1 1",
+            "/playsound random.fuse @s ~ ~ ~"
           ]
         }
       }
@@ -139,7 +140,8 @@
           ],
           "on_entry": [
             "/clear @s minekart:lightning -1 1",
-            "/tag @e[type=minekart:mario_kart,rm=1] add lightning"
+            "/tag @e[type=minekart:mario_kart,rm=1] add lightning",
+            "/playsound ambient.weather.thunder @s ~ ~ ~"
           ]
         }
       }
