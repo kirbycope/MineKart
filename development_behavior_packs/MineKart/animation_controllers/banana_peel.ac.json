@@ -16,7 +16,9 @@
                         "default": "!query.is_sheared"
                     }],
                     "on_entry": [
-                        "/playanimation @e[type=minekart:mario_kart] animation.mario_kart.spin",
+                        "/playanimation @e[type=minekart:mario_kart_minekart:mario_kart_50] animation.mario_kart.spin",
+                        "/playanimation @e[type=minekart:mario_kart_minekart:mario_kart_100] animation.mario_kart.spin",
+                        "/playanimation @e[type=minekart:mario_kart_minekart:mario_kart_150] animation.mario_kart.spin",
                         "/kill @s",
                         "/effect @p[c=1] slowness 2 6 true"
                     ]

@@ -1,8 +1,21 @@
-entity.minekart:mario_kart.name=Mario Kart
-item.spawn_egg.entity.minekart:mario_kart.name=Spawn Mario Kart
-action.hint.exit.minekart:mario_kart=Tap crouch to exit the kart
-action.interact.exit.minekart:mario_kart=Leave kart
-action.interact.ride.minekart:mario_kart=Board
+entity.minekart:mario_kart_50.name=50cc Mario Kart
+item.spawn_egg.entity.minekart:mario_kart_50.name=Spawn 50cc Mario Kart
+action.hint.exit.minekart:mario_kart_50=Tap crouch to exit the kart
+action.interact.exit.minekart:mario_kart_50=Leave kart
+action.interact.ride.minekart:mario_kart_50=Board
+
+entity.minekart:mario_kart_100.name=100cc Mario Kart
+item.spawn_egg.entity.minekart:mario_kart_100.name=Spawn 100cc Mario Kart
+action.hint.exit.minekart:mario_kart_100=Tap crouch to exit the kart
+action.interact.exit.minekart:mario_kart_100=Leave kart
+action.interact.ride.minekart:mario_kart_100=Board
+
+entity.minekart:mario_kart_150.name=150cc Mario Kart
+item.spawn_egg.entity.minekart:mario_kart_150.name=Spawn 150cc Mario Kart
+action.hint.exit.minekart:mario_kart_150=Tap crouch to exit the kart
+action.interact.exit.minekart:mario_kart_150=Leave kart
+action.interact.ride.minekart:mario_kart_150=Board
+
 tile.minekart:item_box.name=Item Box
 item.minekart:banana.name=Banana
 entity.minekart:banana_peel.name=Banana Peel

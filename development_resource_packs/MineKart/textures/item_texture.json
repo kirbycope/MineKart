@@ -18,8 +18,14 @@
 		"lightning": {
 			"textures": ["textures/items/lightning_32"]
 		},
-		"mario_kart_spawn_egg": {
-			"textures": ["textures/items/mario_kart_spawn_egg_32"]
+		"mario_kart_50_spawn_egg": {
+			"textures": ["textures/items/mario_kart_spawn_egg_32_50"]
+		},
+		"mario_kart_100_spawn_egg": {
+			"textures": ["textures/items/mario_kart_spawn_egg_32_100"]
+		},
+		"mario_kart_150_spawn_egg": {
+			"textures": ["textures/items/mario_kart_spawn_egg_32_150"]
 		},
 		"mushroom": {
 			"textures": ["textures/items/mushroom_32"]

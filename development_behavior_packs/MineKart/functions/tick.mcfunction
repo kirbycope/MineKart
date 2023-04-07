@@ -4,7 +4,9 @@ execute as @a[tag=lotto] run function lotto
 
 # Lightning
 execute at @e[tag=lightning] run summon lightning_bolt ~ ~ ~
-tag @e[type=minekart:mario_kart] remove lightning
+tag @e[type=minekart:mario_kart_50] remove lightning
+tag @e[type=minekart:mario_kart_100] remove lightning
+tag @e[type=minekart:mario_kart_150] remove lightning
 
 # Red Shell
 #tp @e[type=minekart:red_shell_entity] ^ ^ ^1 facing @e[tag=homing]

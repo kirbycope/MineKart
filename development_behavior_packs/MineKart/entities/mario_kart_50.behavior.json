@@ -2,7 +2,7 @@
 	"format_version": "1.16.0",
 	"minecraft:entity": {
 		"description": {
-			"identifier": "minekart:mario_kart",
+			"identifier": "minekart:mario_kart_50",
 			"is_spawnable": true,
 			"is_summonable": true,
 			"is_experimental": false

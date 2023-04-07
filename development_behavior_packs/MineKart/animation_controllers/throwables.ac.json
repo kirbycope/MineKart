@@ -141,7 +141,9 @@
           ],
           "on_entry": [
             "/clear @s minekart:lightning -1 1",
-            "/tag @e[type=minekart:mario_kart,rm=1] add lightning",
+            "/tag @e[type=minekart:mario_kart_50,rm=1] add lightning",
+            "/tag @e[type=minekart:mario_kart_100,rm=1] add lightning",
+            "/tag @e[type=minekart:mario_kart_150,rm=1] add lightning",
             "/playsound ambient.weather.thunder @s ~ ~ ~"
           ]
         }

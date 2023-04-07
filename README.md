@@ -10,8 +10,9 @@ Minecraft meets Mario Kart in this multiplayer mash-up.
 
 ## Behaviors
  - ![Block](/item-box.gif) Item Box: Gives the player a random item.
- - ![Entity](/development_resource_packs/MineKart/textures/items/mario_kart_spawn_egg_32.png) Mario Kart: Spawns a kart with 6 HP.
- - ![Item](/development_resource_packs/MineKart/textures/items/ballon_32.png) Ballon: _todo_
+ - ![Entity](/development_resource_packs/MineKart/textures/items/mario_kart_spawn_egg_32_50.png) 50cc Mario Kart: Spawns a kart with 6 HP.
+ - ![Entity](/development_resource_packs/MineKart/textures/items/mario_kart_spawn_egg_32_100.png) 100cc Mario Kart: Spawns a kart with 6 HP.
+ - ![Entity](/development_resource_packs/MineKart/textures/items/mario_kart_spawn_egg_32_150.png) 150cc Mario Kart: Spawns a kart with 6 HP.
  - ![Item](/development_resource_packs/MineKart/textures/items/banana_32.png) Banana: Makes kart spin and gives the player slowness for 2 seconds.
  - ![Item](/development_resource_packs/MineKart/textures/items/blooper_32.png) Blooper: Gives all other players blindness for 6 seconds.
  - ![Item](/development_resource_packs/MineKart/textures/items/bob-omb_32.png) Bob-omb: Explodes where it lands, dealing 6 damage.
