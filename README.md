@@ -4,7 +4,7 @@
 Minecraft meets Mario Kart in this multiplayer mash-up.
 
 ## Installation
-1. Download the [mcaddon](https://github.com/kirbycope/MineKart/raw/main/MineKart.mcaddon)
+1. Download the [mcaddon](https://github.com/kirbycope/MineKart/releases/latest/download/MineKart.mcaddon) from the latest release
 1. Double-click the mcaddon file
 1. Load the Resource and Behaviour packs for your world/save
 
