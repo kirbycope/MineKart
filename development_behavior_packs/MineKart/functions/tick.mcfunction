@@ -1,5 +1,5 @@
 # Item Box
-execute at @p[tag=!lotto] if block ~ ~1 ~ minekart:item_box run tag @p[c=1] add lotto
+execute as @a[tag=!lotto] at @s if block ~ ~1 ~ minekart:item_box run tag @s add lotto
 execute as @a[tag=lotto] run function lotto
 
 # Lightning
