@@ -4,3 +4,6 @@ minecraftWorlds/
 resource_packs/
 world_templates/
 *.dat
+
+# the add-on, built by tools/build_addon.py and published as a release asset
+/MineKart.mcaddon
