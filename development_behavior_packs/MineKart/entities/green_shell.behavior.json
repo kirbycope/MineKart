@@ -1,5 +1,5 @@
 {
-	"format_version": "1.16.0",
+	"format_version": "1.26.50",
 	"minecraft:entity": {
 		"description": {
 			"identifier": "minekart:green_shell_entity",
@@ -16,10 +16,14 @@
 			"minecraft:projectile": {
 				"on_hit": {
 					"impact_damage": {
-						"damage": 6
+						"damage": {
+							"min": 6,
+							"max": 6
+						}
 					},
 					"remove_on_hit": {}
 				},
+				"isolated_physics": false,
 				"power": 0.7,
 				"gravity": 0.03,
 				"angle_offset": -20.0,
