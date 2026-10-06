@@ -1,0 +1,23 @@
+{
+	"format_version": "1.19.50",
+	"minecraft:block": {
+		"components": {
+			"minecraft:collision_box": false,
+			"minecraft:geometry": "geometry.boost_pad",
+			"minecraft:light_dampening": 0,
+			"minecraft:map_color": "#ff9500",
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "opaque",
+					"texture": "boost_pad"
+				}
+			}
+		},
+		"description": {
+			"identifier": "minekart:boost_pad",
+			"menu_category": {
+				"category": "construction"
+			}
+		}
+	}
+}

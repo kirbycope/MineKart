@@ -6,6 +6,9 @@
 	"texture_data": {
 		"item_box": {
 			"textures": "textures/blocks/item_box"
+		},
+		"boost_pad": {
+			"textures": "textures/blocks/boost_pad"
 		}
 	}
 }

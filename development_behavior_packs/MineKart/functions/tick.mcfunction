@@ -2,6 +2,10 @@
 execute as @a[tag=!lotto] at @s if block ~ ~1 ~ minekart:item_box run tag @s add lotto
 execute as @a[tag=lotto] run function lotto
 
+# Boost Pad
+execute as @a at @s if block ~ ~-1 ~ minekart:boost_pad run effect @s speed 3 2 true
+execute as @a at @s if block ~ ~-2 ~ minekart:boost_pad run effect @s speed 3 2 true
+
 # Lightning
 execute at @e[tag=lightning] run summon lightning_bolt ~ ~ ~
 tag @e[type=minekart:mario_kart_50] remove lightning
