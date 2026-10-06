@@ -1,0 +1,104 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.player.paint": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"use_red_dye": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:red_dye') && query.is_using_item"
+						},
+						{
+							"use_orange_dye": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:orange_dye') && query.is_using_item"
+						},
+						{
+							"use_yellow_dye": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:yellow_dye') && query.is_using_item"
+						},
+						{
+							"use_green_dye": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:green_dye') && query.is_using_item"
+						},
+						{
+							"use_purple_dye": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:purple_dye') && query.is_using_item"
+						},
+						{
+							"use_black_dye": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:black_dye') && query.is_using_item"
+						},
+						{
+							"use_white_dye": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:white_dye') && query.is_using_item"
+						}
+					]
+				},
+				"use_red_dye": {
+					"transitions": [
+						{
+							"default": "1.0"
+						}
+					],
+					"on_entry": [
+						"/tag @s add paint_red"
+					]
+				},
+				"use_orange_dye": {
+					"transitions": [
+						{
+							"default": "1.0"
+						}
+					],
+					"on_entry": [
+						"/tag @s add paint_orange"
+					]
+				},
+				"use_yellow_dye": {
+					"transitions": [
+						{
+							"default": "1.0"
+						}
+					],
+					"on_entry": [
+						"/tag @s add paint_yellow"
+					]
+				},
+				"use_green_dye": {
+					"transitions": [
+						{
+							"default": "1.0"
+						}
+					],
+					"on_entry": [
+						"/tag @s add paint_green"
+					]
+				},
+				"use_purple_dye": {
+					"transitions": [
+						{
+							"default": "1.0"
+						}
+					],
+					"on_entry": [
+						"/tag @s add paint_purple"
+					]
+				},
+				"use_black_dye": {
+					"transitions": [
+						{
+							"default": "1.0"
+						}
+					],
+					"on_entry": [
+						"/tag @s add paint_black"
+					]
+				},
+				"use_white_dye": {
+					"transitions": [
+						{
+							"default": "1.0"
+						}
+					],
+					"on_entry": [
+						"/tag @s add paint_white"
+					]
+				}
+			}
+		}
+	}
+}

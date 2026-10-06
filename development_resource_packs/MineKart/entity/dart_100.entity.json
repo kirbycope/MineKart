@@ -1,0 +1,33 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minekart:dart_100",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/dart"
+			},
+			"geometry": {
+				"default": "geometry.dart"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"animations": {
+				"move": "animation.mario_kart.move"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"move": "query.modified_move_speed"
+					}
+				]
+			},
+			"spawn_egg": {
+				"texture": "dart_100_spawn_egg"
+			}
+		}
+	}
+}

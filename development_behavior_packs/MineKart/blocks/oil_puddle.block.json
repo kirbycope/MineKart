@@ -1,0 +1,23 @@
+{
+	"format_version": "1.19.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "minekart:oil_puddle",
+			"menu_category": {
+				"category": "construction"
+			}
+		},
+		"components": {
+			"minecraft:collision_box": false,
+			"minecraft:geometry": "geometry.oil_puddle",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "oil_puddle",
+					"render_method": "blend"
+				}
+			},
+			"minecraft:light_dampening": 0,
+			"minecraft:map_color": "#14141a"
+		}
+	}
+}

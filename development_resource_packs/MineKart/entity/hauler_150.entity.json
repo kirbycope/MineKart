@@ -1,0 +1,33 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minekart:hauler_150",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/hauler"
+			},
+			"geometry": {
+				"default": "geometry.hauler"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"animations": {
+				"move": "animation.mario_kart.move"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"move": "query.modified_move_speed"
+					}
+				]
+			},
+			"spawn_egg": {
+				"texture": "hauler_150_spawn_egg"
+			}
+		}
+	}
+}
