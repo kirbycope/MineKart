@@ -1,43 +1,204 @@
 {
 	"texture_data": {
 		"banana": {
-			"textures": ["textures/items/banana_32"]
+			"textures": [
+				"textures/items/banana_32"
+			]
 		},
 		"blooper": {
-			"textures": ["textures/items/blooper_32"]
+			"textures": [
+				"textures/items/blooper_32"
+			]
 		},
 		"bob-omb": {
-			"textures": ["textures/items/bob-omb_32"]
+			"textures": [
+				"textures/items/bob-omb_32"
+			]
 		},
 		"boo": {
-			"textures": ["textures/items/boo_32"]
+			"textures": [
+				"textures/items/boo_32"
+			]
 		},
 		"green_shell": {
-			"textures": ["textures/items/green_shell_32"]
+			"textures": [
+				"textures/items/green_shell_32"
+			]
 		},
 		"lightning": {
-			"textures": ["textures/items/lightning_32"]
+			"textures": [
+				"textures/items/lightning_32"
+			]
 		},
 		"mario_kart_50_spawn_egg": {
-			"textures": ["textures/items/mario_kart_spawn_egg_32_50"]
+			"textures": [
+				"textures/items/mario_kart_spawn_egg_32_50"
+			]
 		},
 		"mario_kart_100_spawn_egg": {
-			"textures": ["textures/items/mario_kart_spawn_egg_32_100"]
+			"textures": [
+				"textures/items/mario_kart_spawn_egg_32_100"
+			]
 		},
 		"mario_kart_150_spawn_egg": {
-			"textures": ["textures/items/mario_kart_spawn_egg_32_150"]
+			"textures": [
+				"textures/items/mario_kart_spawn_egg_32_150"
+			]
 		},
 		"mushroom": {
-			"textures": ["textures/items/mushroom_32"]
+			"textures": [
+				"textures/items/mushroom_32"
+			]
 		},
 		"red_shell": {
-			"textures": ["textures/items/red_shell_32"]
+			"textures": [
+				"textures/items/red_shell_32"
+			]
 		},
 		"spiny_shell": {
-			"textures": ["textures/items/spiny_shell_32"]
+			"textures": [
+				"textures/items/spiny_shell_32"
+			]
 		},
 		"star": {
-			"textures": ["textures/items/star_32"]
+			"textures": [
+				"textures/items/star_32"
+			]
+		},
+		"mario_kart_50_red_spawn_egg": {
+			"textures": [
+				"textures/items/mario_kart_spawn_egg_32_50_red"
+			]
+		},
+		"mario_kart_50_orange_spawn_egg": {
+			"textures": [
+				"textures/items/mario_kart_spawn_egg_32_50_orange"
+			]
+		},
+		"mario_kart_50_yellow_spawn_egg": {
+			"textures": [
+				"textures/items/mario_kart_spawn_egg_32_50_yellow"
+			]
+		},
+		"mario_kart_50_green_spawn_egg": {
+			"textures": [
+				"textures/items/mario_kart_spawn_egg_32_50_green"
+			]
+		},
+		"mario_kart_50_purple_spawn_egg": {
+			"textures": [
+				"textures/items/mario_kart_spawn_egg_32_50_purple"
+			]
+		},
+		"mario_kart_50_black_spawn_egg": {
+			"textures": [
+				"textures/items/mario_kart_spawn_egg_32_50_black"
+			]
+		},
+		"mario_kart_50_white_spawn_egg": {
+			"textures": [
+				"textures/items/mario_kart_spawn_egg_32_50_white"
+			]
+		},
+		"mario_kart_100_red_spawn_egg": {
+			"textures": [
+				"textures/items/mario_kart_spawn_egg_32_100_red"
+			]
+		},
+		"mario_kart_100_orange_spawn_egg": {
+			"textures": [
+				"textures/items/mario_kart_spawn_egg_32_100_orange"
+			]
+		},
+		"mario_kart_100_yellow_spawn_egg": {
+			"textures": [
+				"textures/items/mario_kart_spawn_egg_32_100_yellow"
+			]
+		},
+		"mario_kart_100_green_spawn_egg": {
+			"textures": [
+				"textures/items/mario_kart_spawn_egg_32_100_green"
+			]
+		},
+		"mario_kart_100_purple_spawn_egg": {
+			"textures": [
+				"textures/items/mario_kart_spawn_egg_32_100_purple"
+			]
+		},
+		"mario_kart_100_black_spawn_egg": {
+			"textures": [
+				"textures/items/mario_kart_spawn_egg_32_100_black"
+			]
+		},
+		"mario_kart_100_white_spawn_egg": {
+			"textures": [
+				"textures/items/mario_kart_spawn_egg_32_100_white"
+			]
+		},
+		"mario_kart_150_red_spawn_egg": {
+			"textures": [
+				"textures/items/mario_kart_spawn_egg_32_150_red"
+			]
+		},
+		"mario_kart_150_orange_spawn_egg": {
+			"textures": [
+				"textures/items/mario_kart_spawn_egg_32_150_orange"
+			]
+		},
+		"mario_kart_150_yellow_spawn_egg": {
+			"textures": [
+				"textures/items/mario_kart_spawn_egg_32_150_yellow"
+			]
+		},
+		"mario_kart_150_green_spawn_egg": {
+			"textures": [
+				"textures/items/mario_kart_spawn_egg_32_150_green"
+			]
+		},
+		"mario_kart_150_purple_spawn_egg": {
+			"textures": [
+				"textures/items/mario_kart_spawn_egg_32_150_purple"
+			]
+		},
+		"mario_kart_150_black_spawn_egg": {
+			"textures": [
+				"textures/items/mario_kart_spawn_egg_32_150_black"
+			]
+		},
+		"mario_kart_150_white_spawn_egg": {
+			"textures": [
+				"textures/items/mario_kart_spawn_egg_32_150_white"
+			]
+		},
+		"hauler_50_spawn_egg": {
+			"textures": [
+				"textures/items/hauler_spawn_egg_32_50"
+			]
+		},
+		"hauler_100_spawn_egg": {
+			"textures": [
+				"textures/items/hauler_spawn_egg_32_100"
+			]
+		},
+		"hauler_150_spawn_egg": {
+			"textures": [
+				"textures/items/hauler_spawn_egg_32_150"
+			]
+		},
+		"dart_50_spawn_egg": {
+			"textures": [
+				"textures/items/dart_spawn_egg_32_50"
+			]
+		},
+		"dart_100_spawn_egg": {
+			"textures": [
+				"textures/items/dart_spawn_egg_32_100"
+			]
+		},
+		"dart_150_spawn_egg": {
+			"textures": [
+				"textures/items/dart_spawn_egg_32_150"
+			]
 		}
 	}
 }
