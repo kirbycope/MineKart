@@ -86,9 +86,6 @@
 				"value": 0.5
 			},
 			"minecraft:balloonable": {},
-			"minecraft:despawn": {
-				"despawn_from_distance": {}
-			},
 			"minecraft:behavior.float": {
 				"priority": 0
 			},

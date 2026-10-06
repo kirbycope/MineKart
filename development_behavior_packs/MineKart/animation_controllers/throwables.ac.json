@@ -93,7 +93,7 @@
           ],
           "on_entry": [
             "/clear @s minekart:blooper -1 1",
-            "/effect @p[rm=1] blindness 6",
+            "/effect @a[rm=1] blindness 6",
             "/playsound mob.squid.ink_squirt @s ~ ~ ~"
           ]
         }
