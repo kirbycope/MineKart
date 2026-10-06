@@ -33,7 +33,7 @@
 					"family_types": [
 						"player"
 					],
-					"interact_text": "action.interact.ride.horse",
+					"interact_text": "action.interact.ride.minekart:mario_kart_150_orange",
 					"seats": {
 						"position": [
 							0,
@@ -101,6 +101,13 @@
 				"add": {
 					"component_groups": [
 						"minecraft:mario_kart_tamed",
+						"minecraft:mario_kart_saddled"
+					]
+				}
+			},
+			"minecraft:mario_kart_unsaddled": {
+				"remove": {
+					"component_groups": [
 						"minecraft:mario_kart_saddled"
 					]
 				}

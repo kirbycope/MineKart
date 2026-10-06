@@ -28,3 +28,168 @@ item.minekart:mushroom.name=Mushroom
 item.minekart:red_shell.name=Red Shell
 item.minekart:spiny_shell.name=Spiny Shell
 item.minekart:star.name=Star
+
+entity.minekart:mario_kart_50_red.name=Red 50cc Mario Kart
+item.spawn_egg.entity.minekart:mario_kart_50_red.name=Spawn Red 50cc Mario Kart
+action.hint.exit.minekart:mario_kart_50_red=Tap crouch to exit the kart
+action.interact.exit.minekart:mario_kart_50_red=Leave kart
+action.interact.ride.minekart:mario_kart_50_red=Board
+
+entity.minekart:mario_kart_100_red.name=Red 100cc Mario Kart
+item.spawn_egg.entity.minekart:mario_kart_100_red.name=Spawn Red 100cc Mario Kart
+action.hint.exit.minekart:mario_kart_100_red=Tap crouch to exit the kart
+action.interact.exit.minekart:mario_kart_100_red=Leave kart
+action.interact.ride.minekart:mario_kart_100_red=Board
+
+entity.minekart:mario_kart_150_red.name=Red 150cc Mario Kart
+item.spawn_egg.entity.minekart:mario_kart_150_red.name=Spawn Red 150cc Mario Kart
+action.hint.exit.minekart:mario_kart_150_red=Tap crouch to exit the kart
+action.interact.exit.minekart:mario_kart_150_red=Leave kart
+action.interact.ride.minekart:mario_kart_150_red=Board
+
+entity.minekart:mario_kart_50_orange.name=Orange 50cc Mario Kart
+item.spawn_egg.entity.minekart:mario_kart_50_orange.name=Spawn Orange 50cc Mario Kart
+action.hint.exit.minekart:mario_kart_50_orange=Tap crouch to exit the kart
+action.interact.exit.minekart:mario_kart_50_orange=Leave kart
+action.interact.ride.minekart:mario_kart_50_orange=Board
+
+entity.minekart:mario_kart_100_orange.name=Orange 100cc Mario Kart
+item.spawn_egg.entity.minekart:mario_kart_100_orange.name=Spawn Orange 100cc Mario Kart
+action.hint.exit.minekart:mario_kart_100_orange=Tap crouch to exit the kart
+action.interact.exit.minekart:mario_kart_100_orange=Leave kart
+action.interact.ride.minekart:mario_kart_100_orange=Board
+
+entity.minekart:mario_kart_150_orange.name=Orange 150cc Mario Kart
+item.spawn_egg.entity.minekart:mario_kart_150_orange.name=Spawn Orange 150cc Mario Kart
+action.hint.exit.minekart:mario_kart_150_orange=Tap crouch to exit the kart
+action.interact.exit.minekart:mario_kart_150_orange=Leave kart
+action.interact.ride.minekart:mario_kart_150_orange=Board
+
+entity.minekart:mario_kart_50_yellow.name=Yellow 50cc Mario Kart
+item.spawn_egg.entity.minekart:mario_kart_50_yellow.name=Spawn Yellow 50cc Mario Kart
+action.hint.exit.minekart:mario_kart_50_yellow=Tap crouch to exit the kart
+action.interact.exit.minekart:mario_kart_50_yellow=Leave kart
+action.interact.ride.minekart:mario_kart_50_yellow=Board
+
+entity.minekart:mario_kart_100_yellow.name=Yellow 100cc Mario Kart
+item.spawn_egg.entity.minekart:mario_kart_100_yellow.name=Spawn Yellow 100cc Mario Kart
+action.hint.exit.minekart:mario_kart_100_yellow=Tap crouch to exit the kart
+action.interact.exit.minekart:mario_kart_100_yellow=Leave kart
+action.interact.ride.minekart:mario_kart_100_yellow=Board
+
+entity.minekart:mario_kart_150_yellow.name=Yellow 150cc Mario Kart
+item.spawn_egg.entity.minekart:mario_kart_150_yellow.name=Spawn Yellow 150cc Mario Kart
+action.hint.exit.minekart:mario_kart_150_yellow=Tap crouch to exit the kart
+action.interact.exit.minekart:mario_kart_150_yellow=Leave kart
+action.interact.ride.minekart:mario_kart_150_yellow=Board
+
+entity.minekart:mario_kart_50_green.name=Green 50cc Mario Kart
+item.spawn_egg.entity.minekart:mario_kart_50_green.name=Spawn Green 50cc Mario Kart
+action.hint.exit.minekart:mario_kart_50_green=Tap crouch to exit the kart
+action.interact.exit.minekart:mario_kart_50_green=Leave kart
+action.interact.ride.minekart:mario_kart_50_green=Board
+
+entity.minekart:mario_kart_100_green.name=Green 100cc Mario Kart
+item.spawn_egg.entity.minekart:mario_kart_100_green.name=Spawn Green 100cc Mario Kart
+action.hint.exit.minekart:mario_kart_100_green=Tap crouch to exit the kart
+action.interact.exit.minekart:mario_kart_100_green=Leave kart
+action.interact.ride.minekart:mario_kart_100_green=Board
+
+entity.minekart:mario_kart_150_green.name=Green 150cc Mario Kart
+item.spawn_egg.entity.minekart:mario_kart_150_green.name=Spawn Green 150cc Mario Kart
+action.hint.exit.minekart:mario_kart_150_green=Tap crouch to exit the kart
+action.interact.exit.minekart:mario_kart_150_green=Leave kart
+action.interact.ride.minekart:mario_kart_150_green=Board
+
+entity.minekart:mario_kart_50_purple.name=Purple 50cc Mario Kart
+item.spawn_egg.entity.minekart:mario_kart_50_purple.name=Spawn Purple 50cc Mario Kart
+action.hint.exit.minekart:mario_kart_50_purple=Tap crouch to exit the kart
+action.interact.exit.minekart:mario_kart_50_purple=Leave kart
+action.interact.ride.minekart:mario_kart_50_purple=Board
+
+entity.minekart:mario_kart_100_purple.name=Purple 100cc Mario Kart
+item.spawn_egg.entity.minekart:mario_kart_100_purple.name=Spawn Purple 100cc Mario Kart
+action.hint.exit.minekart:mario_kart_100_purple=Tap crouch to exit the kart
+action.interact.exit.minekart:mario_kart_100_purple=Leave kart
+action.interact.ride.minekart:mario_kart_100_purple=Board
+
+entity.minekart:mario_kart_150_purple.name=Purple 150cc Mario Kart
+item.spawn_egg.entity.minekart:mario_kart_150_purple.name=Spawn Purple 150cc Mario Kart
+action.hint.exit.minekart:mario_kart_150_purple=Tap crouch to exit the kart
+action.interact.exit.minekart:mario_kart_150_purple=Leave kart
+action.interact.ride.minekart:mario_kart_150_purple=Board
+
+entity.minekart:mario_kart_50_black.name=Black 50cc Mario Kart
+item.spawn_egg.entity.minekart:mario_kart_50_black.name=Spawn Black 50cc Mario Kart
+action.hint.exit.minekart:mario_kart_50_black=Tap crouch to exit the kart
+action.interact.exit.minekart:mario_kart_50_black=Leave kart
+action.interact.ride.minekart:mario_kart_50_black=Board
+
+entity.minekart:mario_kart_100_black.name=Black 100cc Mario Kart
+item.spawn_egg.entity.minekart:mario_kart_100_black.name=Spawn Black 100cc Mario Kart
+action.hint.exit.minekart:mario_kart_100_black=Tap crouch to exit the kart
+action.interact.exit.minekart:mario_kart_100_black=Leave kart
+action.interact.ride.minekart:mario_kart_100_black=Board
+
+entity.minekart:mario_kart_150_black.name=Black 150cc Mario Kart
+item.spawn_egg.entity.minekart:mario_kart_150_black.name=Spawn Black 150cc Mario Kart
+action.hint.exit.minekart:mario_kart_150_black=Tap crouch to exit the kart
+action.interact.exit.minekart:mario_kart_150_black=Leave kart
+action.interact.ride.minekart:mario_kart_150_black=Board
+
+entity.minekart:mario_kart_50_white.name=White 50cc Mario Kart
+item.spawn_egg.entity.minekart:mario_kart_50_white.name=Spawn White 50cc Mario Kart
+action.hint.exit.minekart:mario_kart_50_white=Tap crouch to exit the kart
+action.interact.exit.minekart:mario_kart_50_white=Leave kart
+action.interact.ride.minekart:mario_kart_50_white=Board
+
+entity.minekart:mario_kart_100_white.name=White 100cc Mario Kart
+item.spawn_egg.entity.minekart:mario_kart_100_white.name=Spawn White 100cc Mario Kart
+action.hint.exit.minekart:mario_kart_100_white=Tap crouch to exit the kart
+action.interact.exit.minekart:mario_kart_100_white=Leave kart
+action.interact.ride.minekart:mario_kart_100_white=Board
+
+entity.minekart:mario_kart_150_white.name=White 150cc Mario Kart
+item.spawn_egg.entity.minekart:mario_kart_150_white.name=Spawn White 150cc Mario Kart
+action.hint.exit.minekart:mario_kart_150_white=Tap crouch to exit the kart
+action.interact.exit.minekart:mario_kart_150_white=Leave kart
+action.interact.ride.minekart:mario_kart_150_white=Board
+
+entity.minekart:hauler_50.name=50cc Hauler
+item.spawn_egg.entity.minekart:hauler_50.name=Spawn 50cc Hauler
+action.hint.exit.minekart:hauler_50=Tap crouch to exit the kart
+action.interact.exit.minekart:hauler_50=Leave kart
+action.interact.ride.minekart:hauler_50=Board
+
+entity.minekart:hauler_100.name=100cc Hauler
+item.spawn_egg.entity.minekart:hauler_100.name=Spawn 100cc Hauler
+action.hint.exit.minekart:hauler_100=Tap crouch to exit the kart
+action.interact.exit.minekart:hauler_100=Leave kart
+action.interact.ride.minekart:hauler_100=Board
+
+entity.minekart:hauler_150.name=150cc Hauler
+item.spawn_egg.entity.minekart:hauler_150.name=Spawn 150cc Hauler
+action.hint.exit.minekart:hauler_150=Tap crouch to exit the kart
+action.interact.exit.minekart:hauler_150=Leave kart
+action.interact.ride.minekart:hauler_150=Board
+
+entity.minekart:dart_50.name=50cc Dart
+item.spawn_egg.entity.minekart:dart_50.name=Spawn 50cc Dart
+action.hint.exit.minekart:dart_50=Tap crouch to exit the kart
+action.interact.exit.minekart:dart_50=Leave kart
+action.interact.ride.minekart:dart_50=Board
+
+entity.minekart:dart_100.name=100cc Dart
+item.spawn_egg.entity.minekart:dart_100.name=Spawn 100cc Dart
+action.hint.exit.minekart:dart_100=Tap crouch to exit the kart
+action.interact.exit.minekart:dart_100=Leave kart
+action.interact.ride.minekart:dart_100=Board
+
+entity.minekart:dart_150.name=150cc Dart
+item.spawn_egg.entity.minekart:dart_150.name=Spawn 150cc Dart
+action.hint.exit.minekart:dart_150=Tap crouch to exit the kart
+action.interact.exit.minekart:dart_150=Leave kart
+action.interact.ride.minekart:dart_150=Board
+
+tile.minekart:boost_pad.name=Boost Pad
+tile.minekart:oil_puddle.name=Oil Puddle

@@ -3,3 +3,4 @@ scoreboard players set global loaded 1
 
 # Scoreboard(s)
 scoreboard objectives add timer dummy
+scoreboard objectives add boxcd dummy

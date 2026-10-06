@@ -1,5 +1,7 @@
 # Item Box
-execute as @a[tag=!lotto] at @s if block ~ ~1 ~ minekart:item_box run tag @s add lotto
+scoreboard players add @a boxcd 0
+scoreboard players remove @a[scores={boxcd=1..}] boxcd 1
+execute as @a[tag=!lotto,scores={boxcd=0}] at @s if block ~ ~1 ~ minekart:item_box run tag @s add lotto
 execute as @a[tag=lotto] run function lotto
 
 # Boost Pad
@@ -16,10 +18,6 @@ execute at @e[tag=lightning] run summon lightning_bolt ~ ~ ~
 tag @e[type=minekart:mario_kart_50] remove lightning
 tag @e[type=minekart:mario_kart_100] remove lightning
 tag @e[type=minekart:mario_kart_150] remove lightning
-
-# Red Shell
-#tp @e[type=minekart:red_shell_entity] ^ ^ ^1 facing @e[tag=homing]
-#tag @e remove homing
 
 # Kart Painting
 execute as @a[tag=paint_red] at @s run function paint_red
