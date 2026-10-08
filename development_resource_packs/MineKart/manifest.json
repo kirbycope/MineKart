@@ -4,7 +4,7 @@
 		"name": "MineKart",
 		"description": "MineKart Resource Pack",
 		"uuid": "179c6968-c192-8506-9ebb-10ec4599638a",
-		"version": [1, 0, 0],
+		"version": [1, 0, 1],
 		"min_engine_version": [1, 19, 60]
 	},
 	"metadata": {
@@ -15,7 +15,7 @@
 			"description": "MineKart",
 			"type": "resources",
 			"uuid": "07c53d89-8b7f-9801-3453-a6806b6f669b",
-			"version": [1, 0, 0]
+			"version": [1, 0, 1]
 		}
 	]
 }

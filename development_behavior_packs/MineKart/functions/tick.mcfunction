@@ -1,7 +1,8 @@
 # Item Box
 scoreboard players add @a boxcd 0
 scoreboard players remove @a[scores={boxcd=1..}] boxcd 1
-execute as @a[tag=!lotto,scores={boxcd=0}] at @s if block ~ ~1 ~ minekart:item_box run tag @s add lotto
+# ~1.5 reaches the box from a standing player (feet at the floor) and from a kart rider (seated 0.4 lower)
+execute as @a[tag=!lotto,scores={boxcd=0}] at @s if block ~ ~1.5 ~ minekart:item_box run tag @s add lotto
 execute as @a[tag=lotto] run function lotto
 
 # Boost Pad
