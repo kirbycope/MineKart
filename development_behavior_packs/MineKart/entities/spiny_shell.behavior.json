@@ -32,10 +32,6 @@
 				"hit_sound": "bullet.hit"
 			},
 			"minecraft:physics": {},
-			"minecraft:pushable": {
-				"is_pushable": true,
-				"is_pushable_by_piston": true
-			},
 			"minecraft:conditional_bandwidth_optimization": {
 				"default_values": {
 					"max_optimized_distance": 80.0,
