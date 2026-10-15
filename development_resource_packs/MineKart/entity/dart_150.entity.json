@@ -10,16 +10,18 @@
 				"default": "textures/entity/dart"
 			},
 			"geometry": {
-				"default": "geometry.dart"
+				"default": "geometry.mario_kart"
 			},
 			"render_controllers": [
 				"controller.render.default"
 			],
 			"animations": {
-				"move": "animation.mario_kart.move"
+				"move": "animation.mario_kart.move",
+				"shape": "animation.dart.shape"
 			},
 			"scripts": {
 				"animate": [
+					"shape",
 					{
 						"move": "query.modified_move_speed"
 					}
