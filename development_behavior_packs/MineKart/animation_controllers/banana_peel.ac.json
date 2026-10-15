@@ -5,22 +5,28 @@
             "initial_state": "default",
             "states": {
                 "default": {
-                    "animations": ["find_player"],
-                    "transitions": [{
-                        "detected": "query.is_sheared"
-                    }]
+                    "animations": [
+                        "find_player"
+                    ],
+                    "transitions": [
+                        {
+                            "detected": "query.is_sheared"
+                        }
+                    ]
                 },
                 "detected": {
-                    "animations": ["find_no_player"],
-                    "transitions": [{
-                        "default": "!query.is_sheared"
-                    }],
+                    "animations": [
+                        "find_no_player"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "!query.is_sheared"
+                        }
+                    ],
                     "on_entry": [
-                        "/playanimation @e[type=minekart:mario_kart_50] animation.mario_kart.spin",
-                        "/playanimation @e[type=minekart:mario_kart_100] animation.mario_kart.spin",
-                        "/playanimation @e[type=minekart:mario_kart_150] animation.mario_kart.spin",
-                        "/kill @s",
-                        "/effect @p[c=1] slowness 2 6 true"
+                        "/playanimation @e[family=kart,r=1.5,c=1] animation.mario_kart.spin",
+                        "/effect @e[family=kart,r=1.5,c=1] slowness 2 6 true",
+                        "/kill @s"
                     ]
                 }
             }

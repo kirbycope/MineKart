@@ -24,10 +24,9 @@
 					"remove_on_hit": {}
 				},
 				"isolated_physics": false,
-				"power": 2.2,
+				"power": 1.2,
 				"gravity": 0.03,
-				"homing": true,
-				"angle_offset": -20.0,
+				"angle_offset": 0.0,
 				"hit_ground_sound": "bullet.hit",
 				"hit_sound": "bullet.hit"
 			},

@@ -5,20 +5,15 @@ scoreboard players remove @a[scores={boxcd=1..}] boxcd 1
 execute as @a[tag=!lotto,scores={boxcd=0}] at @s if block ~ ~1.5 ~ minekart:item_box run tag @s add lotto
 execute as @a[tag=lotto] run function lotto
 
-# Boost Pad
-execute as @a at @s run function boost_pad
-
-# Slowdown Terrain
-execute as @a at @s run function slowdown
-
-# Oil Puddle
-execute as @a at @s run function oil_puddle
+# Boost Pad, Slowdown Terrain and Oil Puddle act on the kart, not its driver:
+# a ridden kart moves at its own speed and ignores its rider's effects
+execute as @e[family=kart] at @s run function boost_pad
+execute as @e[family=kart] at @s run function slowdown
+execute as @e[family=kart] at @s run function oil_puddle
 
 # Lightning
 execute at @e[tag=lightning] run summon lightning_bolt ~ ~ ~
-tag @e[type=minekart:mario_kart_50] remove lightning
-tag @e[type=minekart:mario_kart_100] remove lightning
-tag @e[type=minekart:mario_kart_150] remove lightning
+tag @e[family=kart,tag=lightning] remove lightning
 
 # Kart Painting
 execute as @a[tag=paint_red] at @s run function paint_red

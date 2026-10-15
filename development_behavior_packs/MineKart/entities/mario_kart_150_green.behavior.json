@@ -53,7 +53,8 @@
 		"components": {
 			"minecraft:type_family": {
 				"family": [
-					"mob"
+					"mob",
+					"kart"
 				]
 			},
 			"minecraft:collision_box": {

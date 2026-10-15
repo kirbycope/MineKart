@@ -24,32 +24,6 @@
         }
       }
     },
-    "controller.animation.player.bob-omb": {
-      "states": {
-        "default": {
-          "transitions": [
-            {
-              "throw_bob_omb": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minekart:bob-omb') && query.is_using_item"
-            }
-          ],
-          "on_entry": [
-            "@s minekart:reset_bob_omb"
-          ]
-        },
-        "throw_bob_omb": {
-          "transitions": [
-            {
-              "default": "1.0"
-            }
-          ],
-          "on_entry": [
-            "@s minekart:throw_bob_omb",
-            "/clear @s minekart:bob-omb -1 1",
-            "/playsound random.fuse @s ~ ~ ~"
-          ]
-        }
-      }
-    },
     "controller.animation.player.boo": {
       "states": {
         "default": {
@@ -99,31 +73,6 @@
         }
       }
     },
-    "controller.animation.player.green_shell": {
-      "states": {
-        "default": {
-          "transitions": [
-            {
-              "throw_green_shell": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minekart:green_shell') && query.is_using_item"
-            }
-          ],
-          "on_entry": [
-            "@s minekart:reset_green_shell"
-          ]
-        },
-        "throw_green_shell": {
-          "transitions": [
-            {
-              "default": "1.0"
-            }
-          ],
-          "on_entry": [
-            "@s minekart:throw_green_shell",
-            "/clear @s minekart:green_shell -1 1"
-          ]
-        }
-      }
-    },
     "controller.animation.player.lightning": {
       "states": {
         "default": {
@@ -141,9 +90,7 @@
           ],
           "on_entry": [
             "/clear @s minekart:lightning -1 1",
-            "/tag @e[type=minekart:mario_kart_50,rm=1] add lightning",
-            "/tag @e[type=minekart:mario_kart_100,rm=1] add lightning",
-            "/tag @e[type=minekart:mario_kart_150,rm=1] add lightning",
+            "/tag @e[family=kart,rm=1] add lightning",
             "/playsound ambient.weather.thunder @s ~ ~ ~"
           ]
         }
@@ -167,58 +114,8 @@
           "on_entry": [
             "/clear @s minekart:mushroom -1 1",
             "/effect @s speed 4 2",
+            "/effect @e[family=kart,r=1,c=1] speed 4 2 true",
             "/playsound firework.launch @s ~ ~ ~"
-          ]
-        }
-      }
-    },
-    "controller.animation.player.red_shell": {
-      "states": {
-        "default": {
-          "transitions": [
-            {
-              "throw_red_shell": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minekart:red_shell') && query.is_using_item"
-            }
-          ],
-          "on_entry": [
-            "@s minekart:reset_red_shell"
-          ]
-        },
-        "throw_red_shell": {
-          "transitions": [
-            {
-              "default": "1.0"
-            }
-          ],
-          "on_entry": [
-            "@s minekart:throw_red_shell",
-            "/clear @s minekart:red_shell -1 1",
-            "/tag @e[type=minekart:mario_kart,c=1,rm=1] add homing"
-          ]
-        }
-      }
-    },
-    "controller.animation.player.spiny_shell": {
-      "states": {
-        "default": {
-          "transitions": [
-            {
-              "throw_spiny_shell": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minekart:spiny_shell') && query.is_using_item"
-            }
-          ],
-          "on_entry": [
-            "@s minekart:reset_spiny_shell"
-          ]
-        },
-        "throw_spiny_shell": {
-          "transitions": [
-            {
-              "default": "1.0"
-            }
-          ],
-          "on_entry": [
-            "@s minekart:throw_spiny_shell",
-            "/clear @s minekart:spiny_shell -1 1"
           ]
         }
       }

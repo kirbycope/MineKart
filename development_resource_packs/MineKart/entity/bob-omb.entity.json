@@ -2,7 +2,7 @@
 	"format_version": "1.10.0",
 	"minecraft:client_entity": {
 		"description": {
-			"identifier": "minekart:bob-omb_entity",
+			"identifier": "minekart:bob_omb_entity",
 			"materials": {
 				"default": "entity_alphatest"
 			},
