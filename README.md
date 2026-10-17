@@ -43,3 +43,7 @@ Use an item (right-click, or tap on touch) to fire it. Shells and Bob-ombs fly w
  - [Bedrock thorwable items](https://wiki.bedrock.dev/items/throwable.html#stable-method)
  - [Bedrock detecting other enemies](https://wiki.bedrock.dev/entities/detecting-other-entities.html)
  - [Faithful GUI texture](https://github.com/Faithful-Resource-Pack/Faithful-Java-32x/blob/1.19.4/assets/minecraft/textures/gui/icons.png)
+
+## Requirements
+Minecraft Bedrock 1.26.0 or newer, with no experiments.
+
