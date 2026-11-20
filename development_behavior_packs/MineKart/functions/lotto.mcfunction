@@ -1,6 +1,16 @@
 scoreboard players add @s timer 0
 
-# Cancel a new roll (timer 0) if the player already holds a MineKart item
+# Cancel a new roll (timer 0) if the player already holds a MineKart item, and say why
+execute if score @s timer matches 0 if entity @s[hasitem={item=minekart:banana,location=slot.hotbar}] run titleraw @s actionbar {"rawtext":[{"translate":"minekart.item_box.have_item"}]}
+execute if score @s timer matches 0 if entity @s[hasitem={item=minekart:blooper,location=slot.hotbar}] run titleraw @s actionbar {"rawtext":[{"translate":"minekart.item_box.have_item"}]}
+execute if score @s timer matches 0 if entity @s[hasitem={item=minekart:bob-omb,location=slot.hotbar}] run titleraw @s actionbar {"rawtext":[{"translate":"minekart.item_box.have_item"}]}
+execute if score @s timer matches 0 if entity @s[hasitem={item=minekart:boo,location=slot.hotbar}] run titleraw @s actionbar {"rawtext":[{"translate":"minekart.item_box.have_item"}]}
+execute if score @s timer matches 0 if entity @s[hasitem={item=minekart:green_shell,location=slot.hotbar}] run titleraw @s actionbar {"rawtext":[{"translate":"minekart.item_box.have_item"}]}
+execute if score @s timer matches 0 if entity @s[hasitem={item=minekart:lightning,location=slot.hotbar}] run titleraw @s actionbar {"rawtext":[{"translate":"minekart.item_box.have_item"}]}
+execute if score @s timer matches 0 if entity @s[hasitem={item=minekart:mushroom,location=slot.hotbar}] run titleraw @s actionbar {"rawtext":[{"translate":"minekart.item_box.have_item"}]}
+execute if score @s timer matches 0 if entity @s[hasitem={item=minekart:red_shell,location=slot.hotbar}] run titleraw @s actionbar {"rawtext":[{"translate":"minekart.item_box.have_item"}]}
+execute if score @s timer matches 0 if entity @s[hasitem={item=minekart:spiny_shell,location=slot.hotbar}] run titleraw @s actionbar {"rawtext":[{"translate":"minekart.item_box.have_item"}]}
+execute if score @s timer matches 0 if entity @s[hasitem={item=minekart:star,location=slot.hotbar}] run titleraw @s actionbar {"rawtext":[{"translate":"minekart.item_box.have_item"}]}
 tag @s[scores={timer=0},hasitem={item=minekart:banana,location=slot.hotbar}] remove lotto
 tag @s[scores={timer=0},hasitem={item=minekart:blooper,location=slot.hotbar}] remove lotto
 tag @s[scores={timer=0},hasitem={item=minekart:bob-omb,location=slot.hotbar}] remove lotto
@@ -17,6 +27,7 @@ execute unless entity @s[tag=lotto] run scoreboard players set @s timer 0
 # Safety: the first step only fills an empty hand ("keep"), so a held item is never destroyed;
 # if the hand held something else the banana did not go in, and the roll is cancelled
 execute if entity @s[tag=lotto] if score @s timer matches 6 run replaceitem entity @s slot.weapon.mainhand 0 keep minekart:banana
+execute if score @s timer matches 6 unless entity @s[hasitem={item=minekart:banana,location=slot.weapon.mainhand}] run titleraw @s actionbar {"rawtext":[{"translate":"minekart.item_box.hand_full"}]}
 execute if score @s timer matches 6 unless entity @s[hasitem={item=minekart:banana,location=slot.weapon.mainhand}] run tag @s remove lotto
 execute if score @s timer matches 6 unless entity @s[tag=lotto] run scoreboard players set @s timer 0
 execute if entity @s[tag=lotto] if score @s timer matches 12 run replaceitem entity @s slot.weapon.mainhand 0 minekart:blooper

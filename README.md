@@ -9,7 +9,7 @@ Minecraft meets Mario Kart in this multiplayer mash-up.
 1. Load the Resource and Behaviour packs for your world/save
 
 ## Behaviors
- - ![Block](/item-box.gif) Item Box: Gives the player a random item.
+ - ![Block](/item-box.gif) Item Box: Gives the player a random item. Drive or walk through it, on the ground or floating one block up, with an empty hotbar slot selected. You can hold one item at a time, so use it before picking up another.
  - ![Entity](/development_resource_packs/MineKart/textures/items/mario_kart_spawn_egg_32_50.png) 50cc Mario Kart: Spawns a kart with 6 HP.
  - ![Entity](/development_resource_packs/MineKart/textures/items/mario_kart_spawn_egg_32_100.png) 100cc Mario Kart: Spawns a kart with 6 HP.
  - ![Entity](/development_resource_packs/MineKart/textures/items/mario_kart_spawn_egg_32_150.png) 150cc Mario Kart: Spawns a kart with 6 HP.

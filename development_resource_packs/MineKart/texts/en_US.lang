@@ -17,6 +17,8 @@ action.interact.exit.minekart:mario_kart_150=Leave kart
 action.interact.ride.minekart:mario_kart_150=Board
 
 tile.minekart:item_box.name=Item Box
+minekart.item_box.hand_full=Select an empty hotbar slot to pick up an item
+minekart.item_box.have_item=Use the item you have before picking up another
 item.minekart:banana.name=Banana
 entity.minekart:banana_peel.name=Banana Peel
 item.minekart:boo.name=Boo
