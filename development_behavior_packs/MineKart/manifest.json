@@ -2,9 +2,9 @@
 	"format_version": 2,
 	"header": {
 		"name": "MineKart",
-		"description": "MineKart Behavior Pack",
+		"description": "MineKart Behavior Pack 1.2.2",
 		"uuid": "27818ff2-ad0e-1c01-4ef5-9d3f267663c1",
-		"version": [1, 2, 1],
+		"version": [1, 2, 2],
 		"min_engine_version": [1, 26, 0]
 	},
 	"metadata": {
@@ -13,7 +13,7 @@
 	"modules": [
 		{
 			"description": "Behavior",
-			"version": [1, 2, 1],
+			"version": [1, 2, 2],
 			"uuid": "235c14a4-a593-4a9f-6bd8-24710c9fdfa1",
 			"type": "data"
 		},
@@ -22,14 +22,14 @@
 			"type": "script",
 			"language": "javascript",
 			"uuid": "cacd7026-777c-4324-b6e5-1d1bc441c184",
-			"version": [1, 2, 1],
+			"version": [1, 2, 2],
 			"entry": "scripts/main.js"
 		}
 	],
 	"dependencies": [
 		{
 			"uuid": "179c6968-c192-8506-9ebb-10ec4599638a",
-			"version": [1, 2, 1]
+			"version": [1, 2, 2]
 		},
 		{
 			"module_name": "@minecraft/server",
